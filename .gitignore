@@ -4,7 +4,8 @@ __pycache__/
 *$py.class
 venv/
 .env
-
+crossentropy/.history/
+*.odt
 # 大模型权重、Lora与深度学习产物
 *.pt
 *.pth
