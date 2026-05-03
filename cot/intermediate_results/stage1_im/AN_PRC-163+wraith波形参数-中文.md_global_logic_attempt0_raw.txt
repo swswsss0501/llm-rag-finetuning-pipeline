@@ -1,0 +1,93 @@
+根据提供的文档内容，以下是逻辑解构的结果：
+
+```json
+[
+  {
+    "logic_subject": "Wraith系统的设计初衷",
+    "relation_type": "FUNNEL",
+    "topology_shape": "N/A",
+    "argument_layer": "Core Thesis",
+    "support_hub": "",
+    "support_spokes": [],
+    "logic_content": "Wraith系统旨在提供抗干扰能力，适用于机动战术前沿作战任务。",
+    "evidence_anchors": [
+      "Wraith系统自设计之初就具备抗干扰能力，特别适合在敌方干扰区域附近执行机动战术前沿作战任务。"
+    ],
+    "strategic_weight": "HIGH",
+    "involved_sections": "全文"
+  },
+  {
+    "logic_subject": "Wraith系统的抗干扰能力",
+    "relation_type": "SUPPORT_NET",
+    "topology_shape": "HUB_SPOKE",
+    "argument_layer": "Sub-Argument",
+    "support_hub": "抗干扰能力",
+    "support_spokes": [
+      "自愈网络",
+      "雪崩式网络架构",
+      "语音、数据及PLI传输稳定性",
+      "高通量抗干扰解决方案"
+    ],
+    "logic_content": "Wraith系统通过自愈网络、雪崩式网络架构等技术手段确保抗干扰能力。",
+    "evidence_anchors": [
+      "Wraith通过自愈网络和雪崩式网络架构，确保语音、数据及PLI的稳健性。",
+      "高通量抗干扰解决方案，确保语音、数据传输稳定可靠"
+    ],
+    "strategic_weight": "MEDIUM",
+    "involved_sections": "全文"
+  },
+  {
+    "logic_subject": "Wraith系统的互操作性和兼容性",
+    "relation_type": "SUPPORT_NET",
+    "topology_shape": "HUB_SPOKE",
+    "argument_layer": "Sub-Argument",
+    "support_hub": "互操作性和兼容性",
+    "support_spokes": [
+      "Falcon IV互操作性",
+      "AES加密",
+      "Type 3",
+      "支持AN/PRC-163、AN/PRC-167及RF-9820S型号"
+    ],
+    "logic_content": "Wraith系统能够与Falcon IV系列无线电设备实现互操作，并支持多种型号的无线电设备。",
+    "evidence_anchors": [
+      "Wraith系统可与Falcon IV®系列无线电设备实现互操作，是现有无线电设备的低成本软件升级方案。",
+      "支持AN/PRC-163、AN/PRC-167及RF-9820S型号"
+    ],
+    "strategic_weight": "MEDIUM",
+    "involved_sections": "全文"
+  },
+  {
+    "logic_subject": "Wraith系统的未来发展方向",
+    "relation_type": "FUNNEL",
+    "topology_shape": "N/A",
+    "argument_layer": "Sub-Argument",
+    "support_hub": "",
+    "support_spokes": [],
+    "logic_content": "Wraith系统为未来的战场挑战而设计，包括增加LPX能力，增加节点数量和持续开发运营技术。",
+    "evidence_anchors": [
+      "Wraith为当今的作战行动提供了先进的连接性，并为未来的战场挑战而设计。这包括增加LPX能力，增加节点数量和持续开发运营技术。"
+    ],
+    "strategic_weight": "LOW",
+    "involved_sections": "全文"
+  },
+  {
+    "logic_subject": "L3 Harris Technologies公司的介绍",
+    "relation_type": "FACTUAL_REFERENCE",
+    "topology_shape": "N/A",
+    "argument_layer": "Evidence Pivot",
+    "support_hub": "",
+    "support_spokes": [],
+    "logic_content": "L3 Harris Technologies是一家提供端到端解决方案的全球航空航天与国防技术创新企业。",
+    "evidence_anchors": [],
+    "strategic_weight": "LOW",
+    "involved_sections": "全文"
+  }
+]
+```
+
+### 解析说明：
+1. **Wraith系统的设计初衷**：文档首先介绍了Wraith系统的核心设计目的，即提供抗干扰能力，适用于特定作战环境。这是整个文档的核心论点。
+2. **Wraith系统的抗干扰能力**：围绕这一核心论点，文档详细列举了Wraith系统如何通过多种技术手段实现抗干扰能力，形成了一个支撑网。
+3. **Wraith系统的互操作性和兼容性**：同样作为支撑网，文档展示了Wraith系统与其他设备的互操作性和兼容性，进一步强化了其适用性和灵活性。
+4. **Wraith系统的未来发展方向**：文档最后提到Wraith系统的发展方向，虽然这部分内容较为宽泛，但仍然作为对未来战略的展望，构成了文档的一个子论点。
+5. **L3 Harris Technologies公司的介绍**：这部分内容主要是对公司的介绍，属于事实引用，不构成主要论证部分。

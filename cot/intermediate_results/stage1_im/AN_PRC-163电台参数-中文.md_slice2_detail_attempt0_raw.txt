@@ -1,0 +1,144 @@
+```json
+[
+  {
+    "raw_subject": "KIV-335A (ISR)",
+    "attribute": "频率范围",
+    "raw_value": "L/S/C/ KU",
+    "raw_context": "KIV-335A (ISR) 12243-0100-0x   | 频率范围： L/S/C/ KU 波 形 ： BE- CDL 、 STD- CDL 、 TDL 、 466ER 、 VNW 、 SUAS DDL 、 FM analog",
+    "section_title": "任务模块"
+  },
+  {
+    "raw_subject": "KIV-335A (ISR)",
+    "attribute": "波形",
+    "raw_value": "BE- CDL 、 STD- CDL 、 TDL 、 466ER 、 VNW 、 SUAS DDL 、 FM analog",
+    "raw_context": "KIV-335A (ISR) 12243-0100-0x   | 频率范围： L/S/C/ KU 波 形 ： BE- CDL 、 STD- CDL 、 TDL 、 466ER 、 VNW 、 SUAS DDL 、 FM analog",
+    "section_title": "任务模块"
+  },
+  {
+    "raw_subject": "语音",
+    "attribute": "模式",
+    "raw_value": "窄带模拟 /PCM AM/FM 、 CVSD ASK/ FSK 加 密文本、宽带 2400 bps MELPe 、 LPC/2400- MELP 卫星通信（ IW ）",
+    "raw_context": "语音：窄带模拟 /PCM AM/FM 、 CVSD ASK/ FSK 加 密文本、宽带 2400 bps MELPe 、 LPC/2400- MELP 卫星通信（ IW ）",
+    "section_title": "可用模式"
+  },
+  {
+    "raw_subject": "数据",
+    "attribute": "模式",
+    "raw_value": "窄带模拟 /PCM AM/FM 、 CVSD ASK/ FSK 加密文本、宽带最高 16 Mbps",
+    "raw_context": "数据：窄带模拟 /PCM AM/FM 、 CVSD ASK/ FSK 加密文本、宽带最高 16 Mbps",
+    "section_title": "可用模式"
+  },
+  {
+    "raw_subject": "功率输入",
+    "attribute": "范围",
+    "raw_value": "9.6 至 34.3 伏直流电",
+    "raw_context": "功率输入 | 9.6 至 34.3 伏直流电",
+    "section_title": "电源"
+  },
+  {
+    "raw_subject": "电池类型",
+    "attribute": "类型",
+    "raw_value": "可充电锂离子电池（含）",
+    "raw_context": "电池类型 | 可充电锂离子电池（含）",
+    "section_title": "电源"
+  },
+  {
+    "raw_subject": "编密码",
+    "attribute": "类型",
+    "raw_value": "基于 Denali® 的 1 型 A/B 套件 （可信锚点）",
+    "raw_context": "编密码 | 基于 Denali® 的 1 型 A/B 套件 （可信锚点）",
+    "section_title": "安全"
+  },
+  {
+    "raw_subject": "功率输出",
+    "attribute": "范围",
+    "raw_value": "250 毫瓦至 5 瓦功率范围，支持 10 瓦卫星通信模式， 3.2 瓦 L/S 波段",
+    "raw_context": "功率输出 | 250 毫瓦至 5 瓦功率范围，支持 10 瓦卫星通信模式， 3.2 瓦 L/S 波段",
+    "section_title": "变送器"
+  },
+  {
+    "raw_subject": "灵敏度",
+    "attribute": "范围",
+    "raw_value": "36.500 -52.000 ， -116 dBm ， 12 dB SINAD 146.000 -426.000 ， -114 dBm ， 12 dB SINA D",
+    "raw_context": "灵敏度 | 36.500 -52.000 ， -116 dBm ， 12 dB SINAD 146.000 -426.000 ， -114 dBm ， 12 dB SINA D",
+    "section_title": "接收器"
+  },
+  {
+    "raw_subject": "数据接口",
+    "attribute": "类型",
+    "raw_value": "USB 2.0 、 USB IP 、以太网",
+    "raw_context": "数据 | USB 2.0 、 USB IP 、以太网",
+    "section_title": "接口"
+  },
+  {
+    "raw_subject": "音频接口",
+    "attribute": "类型",
+    "raw_value": "19 针 ADF ， 2 通道音频 + KDU ， USB 2.0 ，填充",
+    "raw_context": "音频 | 19 针 ADF ， 2 通道音频 + KDU ， USB 2.0 ，填充",
+    "section_title": "接口"
+  },
+  {
+    "raw_subject": "天线端口",
+    "attribute": "类型",
+    "raw_value": "50-ohm TNC",
+    "raw_context": "天线端口 | 50-ohm TNC",
+    "section_title": "接口"
+  },
+  {
+    "raw_subject": "程序设计接口",
+    "attribute": "类型",
+    "raw_value": "USB 2.0",
+    "raw_context": "程序设计 | USB 2.0",
+    "section_title": "接口"
+  },
+  {
+    "raw_subject": "关键填充",
+    "attribute": "类型",
+    "raw_value": "DS-101",
+    "raw_context": "关键填充 | DS-101",
+    "section_title": "接口"
+  },
+  {
+    "raw_subject": "功能旋钮",
+    "attribute": "功能",
+    "raw_value": "FP 与 15 5 Presents 关 / 加 载 / 停 / ⾳ 量 / 机械联锁",
+    "raw_context": "功能旋钮 | FP 与 15 5 Presents 关 / 加 载 / 停 / ⾳ 量 / 机械联锁",
+    "section_title": "接口"
+  },
+  {
+    "raw_subject": "外部任务模块",
+    "attribute": "接口",
+    "raw_value": "电源、数据、控制 / 状态",
+    "raw_context": "外部任务模块 | 电源、数据、控制 / 状态",
+    "section_title": "接口"
+  },
+  {
+    "raw_subject": "12102-2700-01",
+    "attribute": "设备",
+    "raw_value": "13 英寸微型信号发⽣器 30-870 兆赫",
+    "raw_context": "12102-2700-01 | 13 英寸微型信号发⽣器 30-870 兆赫",
+    "section_title": "标准套件包含"
+  },
+  {
+    "raw_subject": "12193-1000-xxxx",
+    "attribute": "设备",
+    "raw_value": "RT-2062(C)/U MIL GPS 或 RT-2062A(C)/U COMM GPS",
+    "raw_context": "12193-1000-xxxx | RT-2062(C)/U MIL GPS 或 RT-2062A(C)/U COMM GPS",
+    "section_title": "标准套件包含"
+  },
+  {
+    "raw_subject": "12193-2740-01",
+    "attribute": "设备",
+    "raw_value": "双频段 225-450 MHz 和 1300-2600 MHz",
+    "raw_context": "12193-2740-01 | 双频段 225-450 MHz 和 1300-2600 MHz",
+    "section_title": "标准套件包含"
+  },
+  {
+    "raw_subject": "12500-2500-02",
+    "attribute": "设备",
+    "raw_value": "7.0 锂离子电池",
+    "raw_context": "12500-2500-02 | 7.0 锂离子电池",
+    "section_title": "标准套件包含"
+  }
+]
+```

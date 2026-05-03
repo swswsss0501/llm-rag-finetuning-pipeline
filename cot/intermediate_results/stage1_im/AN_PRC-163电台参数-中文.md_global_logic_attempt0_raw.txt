@@ -1,0 +1,78 @@
+```json
+[
+  {
+    "logic_subject": "AN/PRC-163 多通道手持无线电",
+    "relation_type": "SUPPORT_NET",
+    "topology_shape": "HUB_SPOKE",
+    "argument_layer": "Core Thesis",
+    "support_hub": "AN/PRC-163 多通道手持无线电",
+    "support_spokes": [
+      "跨频段技术实现数据与语音的同步传输",
+      "支持卫星通信、视距通信及移动自组织网络",
+      "软件定义的手持设备支持快速的现场更新",
+      "外部任务模块的硬件接口允许作战人员快速添加选项",
+      "尺寸、重量和功率表现优于现有单通道无线电设备",
+      "基于 L3Harris 的多通道 Denali® 安全架构设计",
+      "人机界面采用熟悉的操作体验",
+      "扩展模块接口使 L3Harris 能够集成更多技术功能",
+      "提供移动状态下的非视距通信替代模式"
+    ],
+    "logic_content": "AN/PRC-163 多通道手持无线电通过多种技术特性，提供了高效、灵活且安全的通信解决方案。",
+    "evidence_anchors": [
+      "通过跨频段技术实现数据与语音的同步传输",
+      "支持卫星通信、视距通信及移动自组织网络",
+      "软件定义的手持设备支持快速的现场更新",
+      "外部任务模块的硬件接口允许作战人员快速添加选项",
+      "尺寸、重量和功率表现优于现有单通道无线电设备",
+      "基于 L3Harris 的多通道 Denali® 安全架构设计",
+      "人机界面采用熟悉的操作体验",
+      "扩展模块接口使 L3Harris 能够集成更多技术功能",
+      "提供移动状态下的非视距通信替代模式"
+    ],
+    "strategic_weight": "HIGH",
+    "involved_sections": "全文"
+  },
+  {
+    "logic_subject": "主要优势",
+    "relation_type": "SUPPORT_NET",
+    "topology_shape": "HUB_SPOKE",
+    "argument_layer": "Sub-Argument",
+    "support_hub": "主要优势",
+    "support_spokes": [
+      "多级独立安全体系",
+      "同步、完全冗余的双通道语音、数据和视频交叉带技术",
+      "单个紧凑型双通道手持设备集多种功能",
+      "通过扩展模块接口和软件定义架构简化对不断演变的战术需求的升级",
+      "KIV-335A 可接收全动态视频并传输至战术指挥中心",
+      "DTCS 任务模块提供高保障 Blos 语音和数据能力",
+      "WebUI 通过 Android 和 Windows® 设备简化无线网络管理",
+      "高速战术移动自组网拓展实时网络情报"
+    ],
+    "logic_content": "AN/PRC-163 多通道手持无线电的主要优势在于其多级独立安全体系和多种功能的集成。",
+    "evidence_anchors": [
+      "多级独立安全体系",
+      "同步、完全冗余的双通道语音、数据和视频交叉带技术",
+      "单个紧凑型双通道手持设备集多种功能",
+      "通过扩展模块接口和软件定义架构简化对不断演变的战术需求的升级",
+      "KIV-335A 可接收全动态视频并传输至战术指挥中心",
+      "DTCS 任务模块提供高保障 Blos 语音和数据能力",
+      "WebUI 通过 Android 和 Windows® 设备简化无线网络管理",
+      "高速战术移动自组网拓展实时网络情报"
+    ],
+    "strategic_weight": "MEDIUM",
+    "involved_sections": "主要优势部分"
+  },
+  {
+    "logic_subject": "技术参数",
+    "relation_type": "FACTUAL_REFERENCE",
+    "topology_shape": "N/A",
+    "argument_layer": "Evidence Pivot",
+    "support_hub": "",
+    "support_spokes": [],
+    "logic_content": "AN/PRC-163 多通道手持无线电的技术参数包括频率范围、信道间隔、网络预设、全球定位系统、管理工具、频率调谐、软件环境、频率稳定性、尺寸、容量、重量、颜色、涂层、操作温度范围、储存温度范围、浸入深度、标准波形、可选波形、功率输入、电池类型、编密码、功率输出、灵敏度、数据接口、音频接口、天线端口、程序设计接口、关键填充、功能旋钮、外部任务模块接口、标准套件包含。",
+    "evidence_anchors": [],
+    "strategic_weight": "LOW",
+    "involved_sections": "技术参数部分"
+  }
+]
+```

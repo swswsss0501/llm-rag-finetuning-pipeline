@@ -1,0 +1,207 @@
+```json
+[
+  {
+    "raw_subject": "多级独立安全体系（ MILS ）",
+    "attribute": "功能",
+    "raw_value": "高保障架构支持最高机密级别",
+    "raw_context": "多级独立安全体系（ MILS ）&gt; 高保障架构支持最高机密级别的",
+    "section_title": "主要优势"
+  },
+  {
+    "raw_subject": "双通道语音、数据和视频交叉带技术",
+    "attribute": "功能",
+    "raw_value": "共享公共作战视图（ COP ）并提升任务效能",
+    "raw_context": "通过同步、完全冗余的双通道语音、数据和视频交叉带技术，共享公共作战视图（ COP ）并提升任务效能",
+    "section_title": "主要优势"
+  },
+  {
+    "raw_subject": "单个紧凑型双通道手持设备",
+    "attribute": "功能",
+    "raw_value": "集多种功能于一体，可降低下车及车载任务的成本",
+    "raw_context": "单个紧凑型双通道手持设备集多种功能于一体，可降低下车及车载任务的成本",
+    "section_title": "主要优势"
+  },
+  {
+    "raw_subject": "扩展模块接口和软件定义架构",
+    "attribute": "功能",
+    "raw_value": "简化对不断演变的战术需求的升级",
+    "raw_context": "通过扩展模块接口和软件定义架构，简化对不断演变的战术需求的升级",
+    "section_title": "主要优势"
+  },
+  {
+    "raw_subject": "KIV -335A （ ISR 任务模块）",
+    "attribute": "功能",
+    "raw_value": "可接收全动态视频，并将其传输至战术指挥中心",
+    "raw_context": "KIV -335A （ ISR 任务模块）可接收全动态视频，并将其传输至战术指挥中心。",
+    "section_title": "主要优势"
+  },
+  {
+    "raw_subject": "分布式战术通信服务（ DTCS ）任务模块",
+    "attribute": "功能",
+    "raw_value": "利用铱星卫星网络提供高保障 Blos 语音和数据能力",
+    "raw_context": "分布式战术通信服务（ DTCS ）任务模块利用铱星卫星网络提供高保障 Blos 语音和数据能力",
+    "section_title": "主要优势"
+  },
+  {
+    "raw_subject": "WebUI",
+    "attribute": "功能",
+    "raw_value": "通过 Android 和 Windows® 设备简化无线网络管理",
+    "raw_context": "WebUI 通过 Android 和 Windows® 设备简化无线网络管理",
+    "section_title": "主要优势"
+  },
+  {
+    "raw_subject": "高速战术移动自组网",
+    "attribute": "功能",
+    "raw_value": "拓展实时网络情报",
+    "raw_context": "高速战术移动自组网拓展实时网络情报",
+    "section_title": "主要优势"
+  },
+  {
+    "raw_subject": "R/T 1",
+    "attribute": "频率范围",
+    "raw_value": "甚高频低频段： 30-88 MHz ，甚高频高频段： 118-174 MHz 超高频： 225-512 MHz 卫星通信：上行 300-320 MHz / 下行 360-380 MHz",
+    "raw_context": "R/T 1 甚高频低频段： 30-88 MHz ，甚高频高频段： 118-174 MHz 超高频： 225-512 MHz 卫星通信：上行 300-320 MHz / 下行 360-380 MHz",
+    "section_title": "主要优势"
+  },
+  {
+    "raw_subject": "R/T 2",
+    "attribute": "频率范围",
+    "raw_value": "UHF 频段： 225-450 MHz ， L/S 波段： 1300-2600 MHz ，需提供 L 波段波形选项文件 L-TAC ™ 功能",
+    "raw_context": "R/T 2 UHF 频段： 225-450 MHz ， L/S 波段： 1300-2600 MHz ，需提供 L 波段波形选项文件 L-TAC ™ 功能",
+    "section_title": "主要优势"
+  },
+  {
+    "raw_subject": "R/T 1",
+    "attribute": "信道间隔 / 带宽",
+    "raw_value": "5 kHz-10 MHz",
+    "raw_context": "R/T 1 ： 5 kHz-10 MHz",
+    "section_title": "主要优势"
+  },
+  {
+    "raw_subject": "R/T 2",
+    "attribute": "信道间隔 / 带宽",
+    "raw_value": "5 kHz-40 MHz",
+    "raw_context": "R/T 2 ： 5 kHz-40 MHz",
+    "section_title": "主要优势"
+  },
+  {
+    "raw_subject": "网络预设",
+    "attribute": "数量",
+    "raw_value": "99 （标准）；不限量且支持多任务文件",
+    "raw_context": "99 （标准）；不限量且支持多任务文件",
+    "section_title": "主要优势"
+  },
+  {
+    "raw_subject": "全球定位系统",
+    "attribute": "内置模块",
+    "raw_value": "SAASM L1/L2 或商用 L1",
+    "raw_context": "内置模块 - SAASM L1/L2 或商用 L1",
+    "section_title": "主要优势"
+  },
+  {
+    "raw_subject": "管理工 具",
+    "attribute": "基于 Windows® 的通信规划应用程序",
+    "raw_value": "CPA ；与 JENM 兼容",
+    "raw_context": "基于 Windows® 的通信规划应用程序（ CPA ）；与 JENM 兼容",
+    "section_title": "主要优势"
+  },
+  {
+    "raw_subject": "频率调谐",
+    "attribute": "精度",
+    "raw_value": "10 Hz",
+    "raw_context": "10 Hz",
+    "section_title": "主要优势"
+  },
+  {
+    "raw_subject": "软件环境",
+    "attribute": "版本",
+    "raw_value": "SCA 2.2.2",
+    "raw_context": "SCA 2.2.2",
+    "section_title": "主要优势"
+  },
+  {
+    "raw_subject": "频率稳定性",
+    "attribute": "精度",
+    "raw_value": "0.5 ppm",
+    "raw_context": "0.5 ppm",
+    "section_title": "主要优势"
+  },
+  {
+    "raw_subject": "尺寸",
+    "attribute": "大小",
+    "raw_value": "6 H x 3 Wx2Din （ 15.24 x 7.62 x 5.08 厘米）",
+    "raw_context": "6 H x 3 Wx2Din （ 15.24 x 7.62 x 5.08 厘米）",
+    "section_title": "主要优势"
+  },
+  {
+    "raw_subject": "容量（含电池）",
+    "attribute": "体积",
+    "raw_value": "40 ⽴ ⽅ 英 尺 （ 655.48 cm 3 ）",
+    "raw_context": "40 ⽴ ⽅ 英 尺 （ 655.48 cm 3 ）",
+    "section_title": "主要优势"
+  },
+  {
+    "raw_subject": "体重（含电池）",
+    "attribute": "重量",
+    "raw_value": "2.75 lbs (1.25 kg)",
+    "raw_context": "2.75 lbs (1.25 kg)",
+    "section_title": "主要优势"
+  },
+  {
+    "raw_subject": "颜色 / 涂层",
+    "attribute": "外观",
+    "raw_value": "CARC 绿色",
+    "raw_context": "CARC 绿色",
+    "section_title": "主要优势"
+  },
+  {
+    "raw_subject": "操作温度范围",
+    "attribute": "温度",
+    "raw_value": "-22°F 至 131°F （ -30°C 至 +55°C ）",
+    "raw_context": "操作温度范围： -22°F 至 131°F （ -30°C 至 +55°C ）",
+    "section_title": "主要优势"
+  },
+  {
+    "raw_subject": "储存温度范围",
+    "attribute": "温度",
+    "raw_value": "-40°F 至 185°F （ -40°C 至 +85°C ）",
+    "raw_context": "储存温度范围： -40°F 至 185°F （ -40°C 至 +85°C ）",
+    "section_title": "主要优势"
+  },
+  {
+    "raw_subject": "浸入",
+    "attribute": "深度",
+    "raw_value": "20 米",
+    "raw_context": "20 米",
+    "section_title": "主要优势"
+  },
+  {
+    "raw_subject": "信道 1 波形",
+    "attribute": "标准波形",
+    "raw_value": "VHF/UHF LOS ， ANW2®C ， SINCGARS ， P25 （常规）",
+    "raw_context": "标准波形： VHF/UHF LOS ， ANW2®C ， SINCGARS ， P25 （常规）",
+    "section_title": "主要优势"
+  },
+  {
+    "raw_subject": "信道 1 波形",
+    "attribute": "可选波形",
+    "raw_value": "Saturn ， HPW ， IW 1/2 阶段，具有快速 I/II ， P25T 中继（低频段），箭头， ANW2®D",
+    "raw_context": "可选波形： Saturn ， HPW ， IW 1/2 阶段，具有快速 I/II ， P25T 中继（低频段），箭头， ANW2®D",
+    "section_title": "主要优势"
+  },
+  {
+    "raw_subject": "2 种波形",
+    "attribute": "标准波形",
+    "raw_value": "ANW2®C 、超高频视距通信、超高频卫星通信",
+    "raw_context": "标准波形： ANW2®C 、超高频视距通信、超高频卫星通信",
+    "section_title": "主要优势"
+  },
+  {
+    "raw_subject": "2 种波形",
+    "attribute": "可选波形",
+    "raw_value": "TSM -X ™ 、 L-TAC® 、 Wraith ™ （ 3 型和高保证）、 WREN TSM 、 WREN NB 、 ANW2®D",
+    "raw_context": "可选波形： TSM -X ™ 、 L-TAC® 、 Wraith ™ （ 3 型和高保证）、 WREN TSM 、 WREN NB 、 ANW2®D",
+    "section_title": "主要优势"
+  }
+]
+```

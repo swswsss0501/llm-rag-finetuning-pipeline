@@ -1,0 +1,51 @@
+```json
+[
+  {
+    "logic_subject": "L3Harris 和 Palantir 成功集成 AI/ML 功能",
+    "relation_type": "FUNNEL",
+    "topology_shape": "N/A",
+    "argument_layer": "Core Thesis",
+    "support_hub": "",
+    "support_spokes": [],
+    "logic_content": "L3Harris 和 Palantir 成功展示了其 WESCAM MX™-系列光电/红外成像系统与 Palantir 的 Sensor Inference Platform (SIP) 的集成，该平台提供了边缘计算平台上的 AI/ML 能力。这使得系统能够提供高级目标检测和分类能力，增强操作员的情境感知和决策能力。",
+    "evidence_anchors": [
+      "基于此演示，L3Harris 展示了其保持前沿创新的能力。",
+      "结合 L3Harris 的高性能成像系统和 Palantir 的 AI 自动化，为所有平台的操作员提供了敏捷决策的优势。"
+    ],
+    "strategic_weight": "HIGH",
+    "involved_sections": "全文"
+  },
+  {
+    "logic_subject": "WESCAM MX-20 EO/IR 系统的性能优势",
+    "relation_type": "SUPPORT_NET",
+    "topology_shape": "HUB_SPOKE",
+    "argument_layer": "Sub-Argument",
+    "support_hub": "WESCAM MX-20 EO/IR 系统的性能优势",
+    "support_spokes": [
+      "固定翼飞机上安装了 L3Harris 的 WESCAM MX-20 EO/IR 系统",
+      "Palantir 的 SIP 提供了先进的物体检测、跟踪和分类能力",
+      "增强了操作员的情境感知和目标识别能力",
+      "减少了工作量，提醒操作员需要立即行动的威胁"
+    ],
+    "logic_content": "WESCAM MX-20 EO/IR 系统与 Palantir 的 SIP 集成，提供了高级物体检测、跟踪和分类能力，增强了操作员的情境感知和目标识别能力，并减少了工作量。",
+    "evidence_anchors": [
+      "Palantir 的 SIP 提供了先进的物体检测、跟踪和分类能力。",
+      "结合 L3Harris 的高性能成像系统和 Palantir 的 AI 自动化，为所有平台的操作员提供了敏捷决策的优势。"
+    ],
+    "strategic_weight": "MEDIUM",
+    "involved_sections": "全文"
+  },
+  {
+    "logic_subject": "L3Harris 在国防行业的角色",
+    "relation_type": "FACTUAL_REFERENCE",
+    "topology_shape": "N/A",
+    "argument_layer": "Evidence Pivot",
+    "support_hub": "",
+    "support_spokes": [],
+    "logic_content": "L3Harris 是国防行业中的可信颠覆者，致力于与其他创新公司合作，以增强交付给作战人员的能力。",
+    "evidence_anchors": [],
+    "strategic_weight": "LOW",
+    "involved_sections": "全文"
+  }
+]
+```

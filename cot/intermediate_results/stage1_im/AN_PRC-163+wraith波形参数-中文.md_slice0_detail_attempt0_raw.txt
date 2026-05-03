@@ -1,0 +1,81 @@
+```json
+[
+  {
+    "raw_subject": "Wraith 系统",
+    "attribute": "设计理念",
+    "raw_value": "自设计之初就具备抗干扰能力，特别适合在敌方干扰区域附近执行机动战术前沿作战任务。",
+    "raw_context": "Wraith 系统自设计之初就具备抗干扰能力，特别适合在敌方干扰区域附近执行机 动战术前沿作战任务。",
+    "section_title": "wraith ™"
+  },
+  {
+    "raw_subject": "Wraith 系统",
+    "attribute": "网络架构",
+    "raw_value": "自愈网络和雪崩式网络架构",
+    "raw_context": "Wraith 通过自愈网络和雪崩式网络架构，确保语音、数据及 PLI （物理层接口）的稳健 性。",
+    "section_title": "wraith ™"
+  },
+  {
+    "raw_subject": "Wraith 系统",
+    "attribute": "支持节点数",
+    "raw_value": "140 个节点",
+    "raw_context": "其波形技术可在多种平台上实现弹性范围扩展，单个网络可支持 140 个节点，同时处理多数据流并达到最高 16 个对话组。",
+    "section_title": "wraith ™"
+  },
+  {
+    "raw_subject": "Wraith 系统",
+    "attribute": "对话组支持",
+    "raw_value": "最高 16 个对话组",
+    "raw_context": "其波形技术可在多种平台上实现弹性范围扩展，单个网络可支持 140 个节点，同时处理多数据流并达到最高 16 个对话组。",
+    "section_title": "wraith ™"
+  },
+  {
+    "raw_subject": "Wraith 系统",
+    "attribute": "用户界面",
+    "raw_value": "配备直观的前面板和熟悉的 Falcon IV 界面",
+    "raw_context": "Wraith 采用标准套件运行，配备直观 的前面板和熟悉的 Falcon IV 界面。",
+    "section_title": "wraith ™"
+  },
+  {
+    "raw_subject": "Wraith 系统",
+    "attribute": "互操作性",
+    "raw_value": "与 Falcon IV® 系列无线电设备实现互操作",
+    "raw_context": "Wraith 系统可与 Falcon IV® 系列无线电设备实现互操作，是现有无线电设备的低成本软件升级方案。",
+    "section_title": "wraith ™"
+  },
+  {
+    "raw_subject": "Wraith 系统",
+    "attribute": "未来发展方向",
+    "raw_value": "包括增加 LPX 能力，增加节点数量和持续开发运营技术",
+    "raw_context": "Wraith 为当今的作战行动提供了先进的连接性，并为未来的战场挑战而设计。这包括增加 LPX 能力，增加节点数量和持续开发运营技术。",
+    "section_title": "wraith ™"
+  },
+  {
+    "raw_subject": "Wraith 系统",
+    "attribute": "主要优势",
+    "raw_value": "高度可靠且可导出的 manet",
+    "raw_context": "- &gt; 高度可靠且可导出 的 manet &gt; 高通量抗干扰解决方案，确保语音、数据",
+    "section_title": "主要优势"
+  },
+  {
+    "raw_subject": "Wraith 系统",
+    "attribute": "加密等级",
+    "raw_value": "Type 3",
+    "raw_context": "- &gt; Type 3",
+    "section_title": "主要优势"
+  },
+  {
+    "raw_subject": "Wraith 系统",
+    "attribute": "对话组支持",
+    "raw_value": "能同时支持两个活跃的对话组",
+    "raw_context": "- 支持 AN/PRC-163 、 AN/PRC-167 及 RF-9820S 型号",
+    "section_title": "主要优势"
+  },
+  {
+    "raw_subject": "Wraith 系统",
+    "attribute": "兼容型号",
+    "raw_value": "AN/PRC-163 、 AN/PRC-167 及 RF-9820S",
+    "raw_context": "- 支持 AN/PRC-163 、 AN/PRC-167 及 RF-9820S 型号",
+    "section_title": "主要优势"
+  }
+]
+```

@@ -1,0 +1,26 @@
+# Python 缓存与虚拟环境
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# 大模型权重、Lora与深度学习产物
+*.pt
+*.pth
+*.safetensors
+*.bin
+/models/
+/lora_weights/
+
+# 结构化JSON及其他数据集
+*.json
+*.jsonl
+*.csv
+/data/
+/logs/
+/runs/
+
+# IDE 配置文件
+.vscode/
+.idea/

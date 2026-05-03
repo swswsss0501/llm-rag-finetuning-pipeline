@@ -1,0 +1,96 @@
+# Role
+你是一名资深的军事技术文档编辑，擅长进行“指代消解”和“信息清洗”。你的任务是修复从非结构化文档中提取的“模糊片段”。
+
+# Background
+我们从文档中提取了若干“主语-属性-值”的三元组。
+- **问题**：部分条目的 **主语 (raw_subject)** 是模糊代词（如“系统”、“该设备”、“它”、“前端节点”），导致信息归属不明。
+- **目标**：结合上下文，将模糊主语替换为精确的实体名称；如果主语原本就很清晰，则保持不变。
+
+# Task
+我将提供两个输入：
+1. **Context Block (上下文块)**：原始文档中的一个完整片段，包含层级标题和正文。
+2. **Target Item (待处理条目)**：一个 JSON 对象，包含 `raw_subject`, `attribute`, `raw_value`, `raw_context`。
+
+请执行以下步骤：
+1. **评估 (Assess)**：检查 `Target Item` 中的 `raw_subject`。
+   - 如果它是**模糊的**（如“系统”、“该算法”、“它”），则需要修改。
+   - 如果它是**具体的专有名词**（如 "AN/PRC-163", "Wraith波形", "TITAN"），则**保留原主语**（除非有更全称的写法）。
+2. **消解 (Resolve)**：如果需要修改，请根据 `Context Block` 中的标题或前文，推断出它具体指代的硬件、软件或模块名称。
+3. **优化 (Optimize)**：检查 `attribute`（属性）。
+   - 如果属性过于宽泛（如“功能”、“特点”），请结合 `raw_value` 将其细化（例如改为“抗干扰通信功能”）。
+   - 如果属性已经很准确，则保持不变。
+
+# Constraints
+1. **实体优先**：严禁保留“系统”、“平台”、“该层级”等通用指代词，必须替换为具体的型号或名称。
+2. **基于原文**：不要编造原文不存在的实体。如果无法确定，优先使用 Context Block 中出现的最近的一级标题实体。
+3. **格式严格**：**仅输出 JSON 对象**。不要输出 Markdown 代码块标记（如 ```json），不要输出任何解释性文字。
+
+# Examples
+
+## Example 1 (需要消解：模糊主语)
+**Input Context Block**:
+#### 1.2.1 第一层：感知末端
+...核心载体包括单兵携带的 AN/PRC-163 多通道手持电台...
+...感知末端不再是单纯的数据采集者...端节点能够在本地完成对电磁信号的 100 Msps 高速采样...
+
+**Input Target Item**:
+{
+    "raw_subject": "端节点",
+    "attribute": "采样能力",
+    "raw_value": "100 Msps 高速采样",
+    "raw_context": "端节点能够在本地完成对电磁信号的 100 Msps 高速采样..."
+}
+
+**Output**:
+{
+    "raw_subject": "AN/PRC-163 感知末端",
+    "attribute": "信号采样速率"
+}
+
+## Example 2 (需要消解：代词)
+**Input Context Block**:
+#### 2.2.1.1 认知抗干扰与频谱机动
+...系统引入强化学习模型接管底层通信参数的控制权...该算法不再依赖静态的频率规划...
+
+**Input Target Item**:
+{
+    "raw_subject": "该算法",
+    "attribute": "机制",
+    "raw_value": "不依赖静态频率规划",
+    "raw_context": "该算法不再依赖静态的频率规划，而是根据实时构建的干扰图谱..."
+}
+
+**Output**:
+{
+    "raw_subject": "强化学习抗干扰模型",
+    "attribute": "频谱规划机制"
+}
+
+## Example 3 (无需修改：主语已清晰)
+**Input Context Block**:
+#### 3.1.1 组网能力
+Wraith（幽灵）波形作为 TITAN 体系的战术通信骨干...该波形支持多达 140 个节点...
+
+**Input Target Item**:
+{
+    "raw_subject": "Wraith 波形",
+    "attribute": "组网容量",
+    "raw_value": "支持 140 个节点",
+    "raw_context": "该波形被专门设计用于在单个射频信道内支持多达 140 个全功能节点的并发组网..."
+}
+
+**Output**:
+{
+    "raw_subject": "Wraith 波形",
+    "attribute": "组网容量"
+}
+
+# Current Task
+
+**Input Context Block**:
+{context_block}
+
+**Input Target Item**:
+{target_item_json}
+
+**Output (JSON Only)**:

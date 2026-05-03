@@ -1,0 +1,88 @@
+```json
+[
+  {
+    "raw_subject": "TITAN",
+    "attribute": "设计理念",
+    "raw_value": "构建一个能够融合高空、太空及地面传感器的“师级神经中枢”",
+    "raw_context": "作为陆军现代化的核心，TITAN 旨在构建一个能够融合高空、太空及地面传感器的“师级神经中枢”。",
+    "section_title": "1.1 战略背景：从 TITAN 到 Radio-as-a-Sensor"
+  },
+  {
+    "raw_subject": "TITAN",
+    "attribute": "扩展概念",
+    "raw_value": "通过“无线电即传感器”（Radio-as-a-Sensor）概念，将其触角延伸至战术最前沿",
+    "raw_context": "然而，随着 2025 年实战需求的演进，TITAN 的外延已不仅仅局限于后方的处理中心，而是通过“无线电即传感器”（Radio-as-a-Sensor）概念，将其触角延伸至战术最前沿。",
+    "section_title": "1.1 战略背景：从 TITAN 到 Radio-as-a-Sensor"
+  },
+  {
+    "raw_subject": "无线电",
+    "attribute": "设计理念",
+    "raw_value": "不再是寻找干净的信道，而是开始“吸入”整个电磁波谱，捕捉那些曾经被丢弃的丰富元数据",
+    "raw_context": "无线电不再只是寻找干净的信道，而是开始“吸入”整个电磁波谱，捕捉那些曾经被丢弃的丰富元数据——包括敌方发射机的光谱异常、无人机控制链路的微弱突发信号以及干扰源的“幽灵回声”。",
+    "section_title": "1.1.2 核心理念变革：从“通信管道”到“全域传感器”"
+  },
+  {
+    "raw_subject": "AN/PRC-163",
+    "attribute": "功能",
+    "raw_value": "手持电台",
+    "raw_context": "情报不再仅仅来源于昂贵的专用电子侦察机或卫星，而是来源于每一名士兵手中的 AN/PRC-163 手持电台和每一辆战车上的 AN/PRC-158 终端。",
+    "section_title": "1.1.2 核心理念变革：从“通信管道”到“全域传感器”"
+  },
+  {
+    "raw_subject": "AN/PRC-158",
+    "attribute": "功能",
+    "raw_value": "终端",
+    "raw_context": "情报不再仅仅来源于昂贵的专用电子侦察机或卫星，而是来源于每一名士兵手中的 AN/PRC-163 手持电台和每一辆战车上的 AN/PRC-158 终端。",
+    "section_title": "1.1.2 核心理念变革：从“通信管道”到“全域传感器”"
+  },
+  {
+    "raw_subject": "Palantir 人工智能平台（AIP）",
+    "attribute": "功能",
+    "raw_value": "将原始信号转化为可行动情报的能力",
+    "raw_context": "通过与 Palantir 人工智能平台（AIP）的深度集成，这些边缘节点具备了在毫秒级时间内将原始信号转化为可行动情报的能力，从而将“传感器到射手”的闭环时间从分钟级压缩至秒级。",
+    "section_title": "1.1.2 核心理念变革：从“通信管道”到“全域传感器”"
+  },
+  {
+    "raw_subject": "Radio-as-a-Sensor 子系统",
+    "attribute": "核心作业逻辑",
+    "raw_value": "数据提炼流水线",
+    "raw_context": "Radio-as-a-Sensor 子系统的核心作业逻辑建立在一条严格的 数据提炼流水线 之上，旨在将无序的电磁波谱实时转化为结构化的目标数据。",
+    "section_title": "1.1.3 核心作业逻辑：从原始频谱到行动情报的转化链"
+  },
+  {
+    "raw_subject": "前端传感器（PRC-163）",
+    "attribute": "采样速率",
+    "raw_value": "100 Msps",
+    "raw_context": "这一流程始于 全谱摄取（Spectrum Ingestion） ，前端传感器（PRC-163）不再局限于特定通信频段，而是以 100 Msps 的速率持续捕获宽带中频（IF）样本。",
+    "section_title": "1.1.3 核心作业逻辑：从原始频谱到行动情报的转化链"
+  },
+  {
+    "raw_subject": "系统",
+    "attribute": "特征提取",
+    "raw_value": "通过固件内嵌的算法内核进行 特征提取",
+    "raw_context": "这些海量的原始 IQ 数据流并不直接回传，而是立即进入边缘计算层，通过固件内嵌的算法内核进行 特征提取。",
+    "section_title": "1.1.3 核心作业逻辑：从原始频谱到行动情报的转化链"
+  },
+  {
+    "raw_subject": "Wraith 波形网络",
+    "attribute": "功能",
+    "raw_value": "汇聚至子网网关",
+    "raw_context": "经过结构化的元数据随即通过 Wraith 波形网络汇聚至子网网关，进入 空间关联 阶段。",
+    "section_title": "1.1.3 核心作业逻辑：从原始频谱到行动情报的转化链"
+  },
+  {
+    "raw_subject": "子网节点",
+    "attribute": "算法",
+    "raw_value": "到达时间差（TDOA）算法",
+    "raw_context": "子网节点利用到达时间差（TDOA）算法对多源元数据进行几何解算，生成目标的初步地理坐标，并剔除无法在物理空间收敛的虚假信号。",
+    "section_title": "1.1.3 核心作业逻辑：从原始频谱到行动情报的转化链"
+  },
+  {
+    "raw_subject": "系统",
+    "attribute": "核心逻辑",
+    "raw_value": "对射频特征的 因果推断",
+    "raw_context": "在此阶段，尽管系统具备接入 SAR 雷达或光电数据进行辅助验证的能力，但其核心逻辑依然聚焦于对射频特征的 因果推断 ——即根据信号的时空行为模式（如特定的发射规律或移动轨迹）直接判定目标性质，并生成包含目标类型与坐标的标准化 目标包（Targeting Package）。",
+    "section_title": "1.1.3 核心作业逻辑：从原始频谱到行动情报的转化链"
+  }
+]
+```

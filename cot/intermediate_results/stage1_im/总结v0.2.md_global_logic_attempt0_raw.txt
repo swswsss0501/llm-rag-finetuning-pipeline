@@ -1,0 +1,287 @@
+```json
+[
+  {
+    "logic_subject": "从TITAN到Radio-as-a-Sensor概念",
+    "relation_type": "FUNNEL",
+    "topology_shape": "N/A",
+    "argument_layer": "Core Thesis",
+    "support_hub": "",
+    "support_spokes": [],
+    "logic_content": "从全球军事对抗的转变到TITAN计划的启动，再到Radio-as-a-Sensor概念的提出，逐步聚焦于电磁频谱领域的战术创新。",
+    "evidence_anchors": [
+      "步入2025年，全球军事对抗的形态已发生根本性转变。",
+      "美国陆军启动并持续升级‘战术情报目标获取节点’（TITAN）计划。",
+      "通过‘无线电即传感器’（Radio-as-a-Sensor）概念，将触角延伸至战术最前沿。"
+    ],
+    "strategic_weight": "HIGH",
+    "involved_sections": "1.1 -> 1.1.1"
+  },
+  {
+    "logic_subject": "无线电即传感器概念",
+    "relation_type": "CAUSAL_CHAIN",
+    "topology_shape": "LINEAR",
+    "argument_layer": "Sub-Argument",
+    "support_hub": "",
+    "support_spokes": [],
+    "logic_content": "无线电从通信管道转变为全域传感器，通过电磁频谱的全息吸入，将战场上的每个通信节点转化为电磁哨兵。",
+    "evidence_anchors": [
+      "无线电不再只是寻找干净的信道，而是开始‘吸入’整个电磁波谱。",
+      "通过与Palantir人工智能平台的深度集成，将原始信号转化为可行动情报。",
+      "将‘传感器到射手’的闭环时间从分钟级压缩至秒级。"
+    ],
+    "strategic_weight": "MEDIUM",
+    "involved_sections": "1.1.2 -> 1.1.3"
+  },
+  {
+    "logic_subject": "TITAN/Radio-as-a-Sensor体系的三层物理架构",
+    "relation_type": "SUPPORT_NET",
+    "topology_shape": "HUB_SPOKE",
+    "argument_layer": "Core Thesis",
+    "support_hub": "TITAN/Radio-as-a-Sensor体系",
+    "support_spokes": [
+      "感知末端",
+      "战术子网/网关",
+      "认知/情报中心"
+    ],
+    "logic_content": "TITAN/Radio-as-a-Sensor体系被划分为三层物理与逻辑层级，每一层级都有明确的算力边界与功能定义。",
+    "evidence_anchors": [
+      "为了在保证敏捷性的同时维持大规模作战的指挥效能，TITAN/Radio-as-a-Sensor体系被严格划分为三个物理与逻辑层级。",
+      "每一层级都拥有明确的算力边界与功能定义，通过标准化的接口与波形实现有机的互联互通。"
+    ],
+    "strategic_weight": "HIGH",
+    "involved_sections": "1.2 -> 1.2.3"
+  },
+  {
+    "logic_subject": "感知末端",
+    "relation_type": "CAUSAL_CHAIN",
+    "topology_shape": "LINEAR",
+    "argument_layer": "Sub-Argument",
+    "support_hub": "",
+    "support_spokes": [],
+    "logic_content": "感知末端节点通过高速采样与初步分类，将电磁信号转化为元数据，为后续处理提供基础。",
+    "evidence_anchors": [
+      "感知末端不再是单纯的数据采集者，而是具备了‘内嵌式微型智能’。",
+      "端节点能够在本地完成对电磁信号的100 Msps高速采样与初步分类。",
+      "这一层的主要产出是经过初步筛选的‘元数据’和‘高置信度警报’。"
+    ],
+    "strategic_weight": "MEDIUM",
+    "involved_sections": "1.2.1 -> 1.2.1"
+  },
+  {
+    "logic_subject": "战术子网/网关",
+    "relation_type": "CAUSAL_CHAIN",
+    "topology_shape": "LINEAR",
+    "argument_layer": "Sub-Argument",
+    "support_hub": "",
+    "support_spokes": [],
+    "logic_content": "战术子网汇聚并处理来自感知末端的元数据，通过三角测量技术计算目标的精确地理坐标。",
+    "evidence_anchors": [
+      "战术子网扮演着‘区域网关’与‘预处理器’的双重角色。",
+      "它负责汇聚子网内数十个末端节点上传的碎片化元数据。",
+      "通过三角测量技术结合TDOA算法，在本地计算出目标的精确地理坐标。"
+    ],
+    "strategic_weight": "MEDIUM",
+    "involved_sections": "1.2.2 -> 1.2.2"
+  },
+  {
+    "logic_subject": "认知/情报中心",
+    "relation_type": "CAUSAL_CHAIN",
+    "topology_shape": "LINEAR",
+    "argument_layer": "Sub-Argument",
+    "support_hub": "",
+    "support_spokes": [],
+    "logic_content": "认知中心将全域数据深度融合，生成具有高置信区间的概率威胁图，并通过联邦学习技术训练新的AI模型。",
+    "evidence_anchors": [
+      "认知中心是整个杀伤链的‘大脑’与‘立法者’。",
+      "利用本体技术，它将来自无线电侦察、合成孔径雷达、高光谱图像等多源异构数据映射为统一的逻辑对象。",
+      "通过因果推断分析未知的异常数据，利用联邦学习技术训练新的AI模型。"
+    ],
+    "strategic_weight": "MEDIUM",
+    "involved_sections": "1.2.3 -> 1.2.3"
+  },
+  {
+    "logic_subject": "Wraith波形构建的高韧性织网",
+    "relation_type": "CAUSAL_CHAIN",
+    "topology_shape": "LINEAR",
+    "argument_layer": "Sub-Argument",
+    "support_hub": "",
+    "support_spokes": [],
+    "logic_content": "Wraith波形支持大规模节点并发组网，具备高韧性通信能力，确保战术网络在拒止环境下的连续性。",
+    "evidence_anchors": [
+      "Wraith波形支持多达140个全功能节点的并发组网。",
+      "通过多跳中继技术实现了战术范围的有效延伸。",
+      "在复杂地形或强干扰导致部分链路中断时，数据仍能通过存活节点的冗余路径自动寻找出口。"
+    ],
+    "strategic_weight": "MEDIUM",
+    "involved_sections": "2.1.1 -> 2.1.1"
+  },
+  {
+    "logic_subject": "战术边缘的数据融合与互操作性",
+    "relation_type": "CAUSAL_CHAIN",
+    "topology_shape": "LINEAR",
+    "argument_layer": "Sub-Argument",
+    "support_hub": "",
+    "support_spokes": [],
+    "logic_content": "战术边缘节点通过软件定义架构实现数据清洗与标准化，确保情报数据能够跨越单一军种或平台的界限。",
+    "evidence_anchors": [
+      "L3Harris战术无线电系统的软件定义架构允许通过加载软件应用或调用扩展任务模块的方式，将Palantir的数据逻辑直接植入子网网关的计算核心。",
+      "系统依据预置的通用数据模型，在本地将非结构化的信号读数转化为标准化的情报对象。",
+      "通过软件定义层将异构的传感器读数转化为标准化的数据模式。"
+    ],
+    "strategic_weight": "MEDIUM",
+    "involved_sections": "2.1.4 -> 2.1.4"
+  },
+  {
+    "logic_subject": "认知情报中心的架构",
+    "relation_type": "SUPPORT_NET",
+    "topology_shape": "HUB_SPOKE",
+    "argument_layer": "Core Thesis",
+    "support_hub": "认知情报中心",
+    "support_spokes": [
+      "语义层",
+      "动力层",
+      "动态层"
+    ],
+    "logic_content": "认知情报中心通过Palantir Foundry平台，将射频数据转化为可调用的战术实体，实现从数据接入、资产控制到逻辑闭环的系统集成。",
+    "evidence_anchors": [
+      "作为TITAN体系的集成环境，Palantir Foundry平台部署了以本体为核心的数据架构。",
+      "系统作为中间件连接底层传感网络与上层决策逻辑，实时摄取L3Harris AN/PRC-163战术网关的频谱数据。",
+      "该分层架构建立了标准化的数据表达模型，支持将离散的射频读数转化为可调用的战术实体。"
+    ],
+    "strategic_weight": "HIGH",
+    "involved_sections": "2.2.4 -> 2.2.4"
+  },
+  {
+    "logic_subject": "智能反欺骗",
+    "relation_type": "CAUSAL_CHAIN",
+    "topology_shape": "LINEAR",
+    "argument_layer": "Sub-Argument",
+    "support_hub": "",
+    "support_spokes": [],
+    "logic_content": "通过因果推断引擎和反事实推理技术，系统能够动态验证目标的真实性，防止指挥系统被虚假信号误导。",
+    "evidence_anchors": [
+      "系统利用反事实推理技术来动态验证目标的真实性。",
+      "当侦测数据与预期反应不符时，系统将判定该信号极可能为高保真的电子诱饵，并在态势图中将其标记为伪目标。",
+      "这种基于深层逻辑的验证机制，有效防止了指挥系统被虚假信号误导。"
+    ],
+    "strategic_weight": "MEDIUM",
+    "involved_sections": "2.2.5 -> 2.2.5"
+  },
+  {
+    "logic_subject": "跨域实体关联",
+    "relation_type": "CAUSAL_CHAIN",
+    "topology_shape": "LINEAR",
+    "argument_layer": "Sub-Argument",
+    "support_hub": "",
+    "support_spokes": [],
+    "logic_content": "通过多模态对齐算法，系统将电磁特征数据与来自太空层的合成孔径雷达图像及空中无人机的全动视频流进行对象级绑定。",
+    "evidence_anchors": [
+      "系统通过计算不同传感器的圆概率误差，对异构数据源进行加权交叉验证。",
+      "系统仅在射频信号的三角测量坐标与光学侦察的物理特征在时空维度上实现高精度重合时，才生成唯一的战术目标实体。",
+      "这种关联机制自动剔除了无法被多源情报相互印证的孤立信号。"
+    ],
+    "strategic_weight": "MEDIUM",
+    "involved_sections": "2.2.6 -> 2.2.6"
+  },
+  {
+    "logic_subject": "全息态势呈现",
+    "relation_type": "CAUSAL_CHAIN",
+    "topology_shape": "LINEAR",
+    "argument_layer": "Sub-Argument",
+    "support_hub": "",
+    "support_spokes": [],
+    "logic_content": "通过软件集成，系统将信号情报与地理空间情报投射在同一地理空间坐标系下，为指挥官提供基于单一事实来源的决策底座。",
+    "evidence_anchors": [
+      "系统将敌方电磁辐射源、物理实体位置与我方蓝军部队轨迹投射在同一地理空间坐标系下。",
+      "系统能够根据敌方雷达的信号参数实时渲染其探测范围与危险区域。",
+      "这种可视化呈现将抽象的电磁参数转化为直观的空间导航辅助。"
+    ],
+    "strategic_weight": "MEDIUM",
+    "involved_sections": "2.2.7 -> 2.2.7"
+  },
+  {
+    "logic_subject": "AI辅助决策",
+    "relation_type": "SUPPORT_NET",
+    "topology_shape": "HUB_SPOKE",
+    "argument_layer": "Core Thesis",
+    "support_hub": "AI辅助决策",
+    "support_spokes": [
+      "自动目标识别与威胁排序",
+      "智能配对与方案生成",
+      "人在回路的决策闭环"
+    ],
+    "logic_content": "通过自动目标识别与威胁排序，智能配对与方案生成，以及人在回路的决策闭环，系统实现了从感知到打击的自动化执行。",
+    "evidence_anchors": [
+      "系统依据数字化交战规则与本体层的语义属性，自动计算目标的动态威胁指数。",
+      "系统会对目标进行多维属性标注，区分硬杀伤目标与软杀伤目标。",
+      "通过动力层接口实时检索全域内的可用打击资源，并将传统的火力打击单元与电子战反制节点纳入统一的资源池进行管理。"
+    ],
+    "strategic_weight": "HIGH",
+    "involved_sections": "2.3 -> 2.3"
+  },
+  {
+    "logic_subject": "集中式训练与算法工厂",
+    "relation_type": "CAUSAL_CHAIN",
+    "topology_shape": "LINEAR",
+    "argument_layer": "Sub-Argument",
+    "support_hub": "",
+    "support_spokes": [],
+    "logic_content": "通过汇聚全战区数据，系统执行模型的重训练与优化，确保持续演进的软件能力能够及时同步至前线作战单元。",
+    "evidence_anchors": [
+      "系统训练更新深度学习分类模型，确保存储库中的新信号特征能被转化为准确的识别标签。",
+      "系统通过仿真模拟手段，对强化学习模型的策略参数进行迭代优化。",
+      "在模型验证通过后，系统利用软件定义架构实现能力的快速下发。"
+    ],
+    "strategic_weight": "MEDIUM",
+    "involved_sections": "2.3.4 -> 2.3.4"
+  },
+  {
+    "logic_subject": "软件定义能力的持续交付",
+    "relation_type": "CAUSAL_CHAIN",
+    "topology_shape": "LINEAR",
+    "argument_layer": "Sub-Argument",
+    "support_hub": "",
+    "support_spokes": [],
+    "logic_content": "通过DevSecOps架构，系统能够通过空中下载技术，向分布式的战术终端与地面站无缝分发最新的功能模块。",
+    "evidence_anchors": [
+      "系统能够智能感知边缘节点的网络带宽、电力状态及任务负载，自动寻找最佳窗口期，将关键的安全补丁或新的波形识别模型增量同步至分布式节点。",
+      "通过消除开发与部署之间的流程壁垒，TITAN体系将新能力的交付周期从传统的数月压缩至数小时。",
+      "这种机制确立了以软件为核心的响应优势，使AN/PRC-163等边缘战术节点能够通过持续的算法重构，实时适配动态变化的战场环境。"
+    ],
+    "strategic_weight": "MEDIUM",
+    "involved_sections": "2.3.5 -> 2.3.5"
+  },
+  {
+    "logic_subject": "数字化装备全生命周期管理与战备监控",
+    "relation_type": "CAUSAL_CHAIN",
+    "topology_shape": "LINEAR",
+    "argument_layer": "Sub-Argument",
+    "support_hub": "",
+    "support_spokes": [],
+    "logic_content": "通过实时监控全网节点的运行状况，系统能够提前识别潜在的装备风险，优化备件调拨，确保系统在关键任务窗口期的可靠性。",
+    "evidence_anchors": [
+      "系统能够对全网节点的运行状况进行实时监控。",
+      "系统集成了针对硬件保障的预测性维护模型。",
+      "通过自动化的合规性检查，系统确保了从核心数据中心到战术边缘网关的通信协议与安全补丁始终保持同步。"
+    ],
+    "strategic_weight": "MEDIUM",
+    "involved_sections": "2.3.6 -> 2.3.6"
+  },
+  {
+    "logic_subject": "TITAN体系的战略价值总结",
+    "relation_type": "CONTRAST",
+    "topology_shape": "N/A",
+    "argument_layer": "Core Thesis",
+    "support_hub": "",
+    "support_spokes": [],
+    "logic_content": "TITAN体系通过引入开放式商业技术架构，克服了既往系统中数据链路碎片化与互操作性缺失的结构性难题，成功弥合了高空深层感知与末端精确打击之间的能力断层。",
+    "evidence_anchors": [
+      "TITAN体系克服了既往系统中数据链路碎片化与互操作性缺失的结构性难题。",
+      "系统成功弥合了高空深层感知与末端精确打击之间的能力断层。",
+      "这种技术革新不仅重塑了情报处理流程，更为联合全域指挥控制提供了具备高度适应性与扩展性的数字底座。"
+    ],
+    "strategic_weight": "HIGH",
+    "involved_sections": "2.3.7 -> 2.3.7"
+  }
+]
+```

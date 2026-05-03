@@ -1,0 +1,116 @@
+```json
+[
+  {
+    "raw_subject": "Wraith（幽灵）波形",
+    "attribute": "组网能力",
+    "raw_value": "支持多达 140 个全功能节点的并发组网",
+    "raw_context": "Wraith（幽灵）波形作为 TITAN 体系的战术通信骨干，在物理层架构上突破了传统移动自组网（MANET）的节点规模瓶颈。该波形被专门设计用于在单个射频信道内支持多达 140 个全功能节点的并发组网，这一容量指标确保了从单兵到车辆的密集编队能够被容纳在同一个逻辑网络中。",
+    "section_title": "2.1.1 3.1.1 组网能力：140 节点容量与雪崩式路由"
+  },
+  {
+    "raw_subject": "Wraith（幽灵）波形",
+    "attribute": "通话组支持",
+    "raw_value": "支持多达 16 个独立的通话组（Talk Groups）",
+    "raw_context": "在话音与数据并发方面，Wraith 支持多达 16 个独立的通话组（Talk Groups），并且具备独特的“双通话组并发（Simultaneous Two Active Talk Groups）”能力。",
+    "section_title": "2.1.1 3.1.1 组网能力：140 节点容量与雪崩式路由"
+  },
+  {
+    "raw_subject": "Wraith（幽灵）波形",
+    "attribute": "数据传输与路由机制",
+    "raw_value": "采用了去中心化的“雪崩式路由”（Avalanche Networking）架构",
+    "raw_context": "在数据传输与路由机制上，Wraith 采用了去中心化的“雪崩式路由”（Avalanche Networking）架构，专为拒止环境下的高韧性通信而生。",
+    "section_title": "2.1.1 3.1.1 组网能力：140 节点容量与雪崩式路由"
+  },
+  {
+    "raw_subject": "Wraith（幽灵）波形",
+    "attribute": "加密算法",
+    "raw_value": "Type 3 AES 加密算法",
+    "raw_context": "为了保障高对抗环境下的信息安全，波形底层集成了 Type 3 AES 加密算法，确保了在全网泛洪传输过程中数据的机密性。",
+    "section_title": "2.1.1 3.1.1 组网能力：140 节点容量与雪崩式路由"
+  },
+  {
+    "raw_subject": "Wraith（幽灵）波形",
+    "attribute": "抗干扰能力",
+    "raw_value": "高吞吐量抗干扰（High-throughput Anti-jam）",
+    "raw_context": "Wraith 波形的生存逻辑建立在“高吞吐量抗干扰（High-throughput Anti-jam）”这一核心设计之上。",
+    "section_title": "2.1.2 3.1.2 动态抗干扰与战术韧性"
+  },
+  {
+    "raw_subject": "Wraith（幽灵）波形",
+    "attribute": "网络自愈特性",
+    "raw_value": "利用其雪崩式组网架构，能够在不依赖人工干预的情况下自动修复断裂的链路",
+    "raw_context": "Wraith 利用其雪崩式组网架构，能够在不依赖人工干预的情况下自动修复断裂的链路。",
+    "section_title": "2.1.2 3.1.2 动态抗干扰与战术韧性"
+  },
+  {
+    "raw_subject": "Wraith（幽灵）波形",
+    "attribute": "平台适应性",
+    "raw_value": "能够作为软件升级包部署在 AN/PRC-163、AN/PRC-167 以及 RF-9820S 等 Falcon IV 系列电台上",
+    "raw_context": "此外，该波形具有广泛的平台适应性，能够作为软件升级包部署在 AN/PRC-163、AN/PRC-167 以及 RF-9820S 等 Falcon IV 系列电台上，实现了跨梯队的统一抗干扰能力覆盖。",
+    "section_title": "2.1.2 3.1.2 动态抗干扰与战术韧性"
+  },
+  {
+    "raw_subject": "Wraith（幽灵）波形",
+    "attribute": "峰值网络吞吐量",
+    "raw_value": "高达 16 Mbps",
+    "raw_context": "在理想的信道条件下，该波形能够提供高达 16 Mbps 的峰值网络吞吐量。",
+    "section_title": "2.1.3 3.1.3 多模态宽带吞吐"
+  },
+  {
+    "raw_subject": "Wraith（幽灵）波形",
+    "attribute": "双通话组并发",
+    "raw_value": "允许单台设备在维持一个语音网络畅通的同时，在后台全速运行独立的宽带数据通道",
+    "raw_context": "为了高效利用这 16 Mbps 的物理带宽，Wraith 采用了先进的“双通话组并发（Simultaneous Two Active Talk Groups）”架构与服务质量（QoS）动态管理机制。",
+    "section_title": "2.1.3 3.1.3 多模态宽带吞吐"
+  },
+  {
+    "raw_subject": "L3Harris 战术无线电系统的软件定义架构（SDA）",
+    "attribute": "边缘数据清洗",
+    "raw_value": "允许通过加载软件应用或调用扩展任务模块的方式，将 Palantir 的数据逻辑直接植入子网网关的计算核心",
+    "raw_context": "L3Harris 战术无线电系统的软件定义架构（SDA）是实现边缘数据清洗的物理前提。该架构突破了传统通信硬件的功能固化限制，允许通过加载软件应用或调用扩展任务模块的方式，将 Palantir 的数据逻辑直接植入子网网关的计算核心。",
+    "section_title": "2.1.4 3.2.1 基于软件定义架构的边缘预处理"
+  },
+  {
+    "raw_subject": "子网网关",
+    "attribute": "预处理能力",
+    "raw_value": "具备了原生的“预处理”能力",
+    "raw_context": "这意味着网关节点在物理层面上同时具备了通信传输与逻辑计算的双重属性，实现了软硬件能力的深度耦合。",
+    "section_title": "2.1.4 3.2.1 基于软件定义架构的边缘预处理"
+  },
+  {
+    "raw_subject": "TITAN 体系",
+    "attribute": "算法闭环分发机制",
+    "raw_value": "利用 Foundry 操作系统作为核心编排引擎，实现了 AI 模型与业务逻辑的“前置部署（Forward-deploy）”",
+    "raw_context": "依据 L3Harris 与 Palantir 的战略合作框架，系统利用 Foundry 操作系统作为核心编排引擎，实现了 AI 模型与业务逻辑的“前置部署（Forward-deploy）”。",
+    "section_title": "2.1.5 3.2.2 边缘算法的前置部署与动态演进"
+  },
+  {
+    "raw_subject": "子网网关",
+    "attribute": "计算逻辑迭代",
+    "raw_value": "能够作为承载最新算法的动态容器，接收经由空中（OTA）或任务数据加载包分发的逻辑更新",
+    "raw_context": "通过这一机制，子网网关不再受限于出厂时预置的固件逻辑，而是能够作为承载最新算法的动态容器，接收经由空中（OTA）或任务数据加载包分发的逻辑更新。",
+    "section_title": "2.1.5 3.2.2 边缘算法的前置部署与动态演进"
+  },
+  {
+    "raw_subject": "战术网关",
+    "attribute": "数据处理任务",
+    "raw_value": "执行多源数据的融合与深度去噪任务",
+    "raw_context": "战术网关在数据处理链路中首要执行的是多源数据的融合与深度去噪任务。",
+    "section_title": "2.1.6 3.2.3 战术网关的计算任务"
+  },
+  {
+    "raw_subject": "战术网关",
+    "attribute": "互操作性转换",
+    "raw_value": "将异构的传感器读数转化为标准化的数据模式（Schema）",
+    "raw_context": "依据 TITAN 体系对联合全域指挥控制（JADC2）的集成要求，网关利用软件定义层将异构的传感器读数转化为标准化的数据模式（Schema）。",
+    "section_title": "2.1.6 3.2.3 战术网关的计算任务"
+  },
+  {
+    "raw_subject": "战术网关",
+    "attribute": "辐射源的协同定位",
+    "raw_value": "利用波形的高精度时间同步特性执行辐射源的协同定位（Geolocation）解算",
+    "raw_context": "此外，作为融合计算的一部分，网关利用波形的高精度时间同步特性执行辐射源的协同定位（Geolocation）解算。",
+    "section_title": "2.1.6 3.2.3 战术网关的计算任务"
+  }
+]
+```

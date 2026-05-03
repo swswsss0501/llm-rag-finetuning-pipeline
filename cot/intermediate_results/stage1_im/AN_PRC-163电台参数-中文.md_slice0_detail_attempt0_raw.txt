@@ -1,0 +1,60 @@
+```json
+[
+  {
+    "raw_subject": "L3Harris AN/PRC-163 多通道手持无线电",
+    "attribute": "功能",
+    "raw_value": "多功能安全解决方案，通过跨频段技术实现数据与语音的同步传输，支持卫星通信、视距通信及移动自组织网络（MANET）等多种工作模式。",
+    "raw_context": "L3Harris AN/PRC-163 多通道手持无线电是一款多功能安全解决方案，通过跨频段技术实现数据与语音的同步传输，支持卫星通信、视距通信及移动自组织网络（MANET）等多种工作模式。",
+    "section_title": "多路手持式无线电"
+  },
+  {
+    "raw_subject": "L3Harris AN/PRC-163",
+    "attribute": "特性",
+    "raw_value": "软件定义的手持设备支持快速的现场更新以增加新功能。",
+    "raw_context": "随着任务需求的变化，这款软件定义的手持设备支持快速的现场更新以增加新功能。",
+    "section_title": "多路手持式无线电"
+  },
+  {
+    "raw_subject": "L3Harris AN/PRC-163",
+    "attribute": "硬件接口",
+    "raw_value": "外部任务模块的硬件接口允许作战人员快速添加选项，包括ISR全动态视频（KIV-335A）和卫星通信（DTCS任务模块）。",
+    "raw_context": "外部任务模块的硬件接口允许作战人员快速添加选项，包括ISR全动态视频（KIV-335A）和卫星通信（DTCS任务模块）。",
+    "section_title": "多路手持式无线电"
+  },
+  {
+    "raw_subject": "AN/PRC-163",
+    "attribute": "SWaP",
+    "raw_value": "在尺寸、重量和功率（SWaP）方面较现有单通道无线电设备表现更优。",
+    "raw_context": "AN/PRC-163 在尺寸、重量和功率（SWaP）方面较现有单通道无线电设备表现更优。",
+    "section_title": "多路手持式无线电"
+  },
+  {
+    "raw_subject": "AN/PRC-163",
+    "attribute": "架构",
+    "raw_value": "基于 L3Harris 的多通道 Denali® 安全架构设计，采用专用波形实现高速网络连接，并可无缝升级至未来波形。",
+    "raw_context": "该设备基于 L3Harris 的多通道 Denali® 安全架构设计，采用专用波形实现高速网络连接，并可无缝升级至未来波形。",
+    "section_title": "多路手持式无线电"
+  },
+  {
+    "raw_subject": "AN/PRC-163",
+    "attribute": "扩展性",
+    "raw_value": "扩展模块接口使 L3Harris 能够集成更多技术功能，包括第三方解决方案。",
+    "raw_context": "扩展模块接口使 L3Harris 能够集成更多技术功能，包括第三方解决方案。",
+    "section_title": "多路手持式无线电"
+  },
+  {
+    "raw_subject": "AN/PRC-163",
+    "attribute": "人机界面",
+    "raw_value": "采用了熟悉的用户体验，显示关键状态信息，这些信息可以通过无线电的前面板进行操作。HMI还可以通过键盘显示单元（KDU）或终端用户设备（安卓智能手机和基于Windows的平板电脑或计算机）远程访问。",
+    "raw_context": "AN/PRC-163 的人机界面（HMI）采用了熟悉 的用户体验，显示关键状态信息，这些信息可以通过无线电的前面板进行操作。HMI还可以通过键盘显示单元（KDU）或终端用户设备（安卓智能手机和基于Windows的平板电脑或计算机）远程访问。",
+    "section_title": "多路手持式无线电"
+  },
+  {
+    "raw_subject": "AN/PRC-163",
+    "attribute": "通信模式",
+    "raw_value": "除具备IW、卫星通信及LTAC™（L波段卫星通信）功能外，还提供移动状态下的非视距（BLOS）通信替代模式。",
+    "raw_context": "AN/PRC-163 除具备IW、卫星通信及LTAC™（L波段卫星通信）功能外，还提供移动状态下的非视距（BLOS）通信替代模式。",
+    "section_title": "多路手持式无线电"
+  }
+]
+```

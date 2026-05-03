@@ -1,0 +1,158 @@
+```json
+[
+  {
+    "raw_subject": "系统",
+    "attribute": "算法",
+    "raw_value": "强化学习（Reinforcement Learning）",
+    "raw_context": "系统引入**强化学习（Reinforcement Learning）**模型接管底层通信参数的控制权，执行毫秒级的自适应防御闭环。",
+    "section_title": "2.2.1.1 3.3.1 认知抗干扰与频谱机动"
+  },
+  {
+    "raw_subject": "该算法",
+    "attribute": "频率范围",
+    "raw_value": "30-2500 MHz",
+    "raw_context": "而是根据实时构建的干扰图谱（Jamming Map），在 **30-2500 MHz** 的宽频范围内自主规划最佳通信路径。",
+    "section_title": "2.2.1.1 3.3.1 认知抗干扰与频谱机动"
+  },
+  {
+    "raw_subject": "网关",
+    "attribute": "时间",
+    "raw_value": "100 毫秒内",
+    "raw_context": "网关能够在 **100 毫秒内** 完成物理层参数的重构，包括执行自适应带宽分配策略或切换至抗干扰性能更强的波形模式。",
+    "section_title": "2.2.1.1 3.3.1 认知抗干扰与频谱机动"
+  },
+  {
+    "raw_subject": "系统",
+    "attribute": "机制",
+    "raw_value": "基于认知算法的自动化响应机制",
+    "raw_context": "这种基于认知算法的自动化响应机制，确保了战术子网在无需人工干预的情况下，能够快速适应瞬变的电磁环境，维持核心指挥链路的连续性与可用性。",
+    "section_title": "2.2.1.1 3.3.1 认知抗干扰与频谱机动"
+  },
+  {
+    "raw_subject": "系统",
+    "attribute": "模型",
+    "raw_value": "轻量化卷积神经网络（CNN）与本体映射算法",
+    "raw_context": "系统在数据源头执行信息价值（VoI）计算，利用轻量化卷积神经网络（CNN）与本体映射算法，对频谱数据进行语义级的战术权重评估。",
+    "section_title": "2.2.2 3.3.2 智能分流与资源动态分配"
+  },
+  {
+    "raw_subject": "系统",
+    "attribute": "传输策略",
+    "raw_value": "抢占式传输策略",
+    "raw_context": "决策引擎随即触发抢占式传输策略，强制分配最高优先级的宽带通道（最高 16 Mbps），确保此类高置信度情报能以毫秒级延迟传输至打击节点，而不受网络当前负载的影响。",
+    "section_title": "2.2.2 3.3.2 智能分流与资源动态分配"
+  },
+  {
+    "raw_subject": "系统",
+    "attribute": "机制",
+    "raw_value": "基于置信度的智能分流策略",
+    "raw_context": "系统采用基于置信度的智能分流策略。对于 AI 识别置信度高的数据，网关仅上传低带宽占用的元数据；而对于置信度低于阈值的异常信号，系统执行智能取证逻辑，将其暂存并等待链路空闲时回传至 Foundry 云端进行深度模式识别。",
+    "section_title": "2.2.2 3.3.2 智能分流与资源动态分配"
+  },
+  {
+    "raw_subject": "Palantir Foundry 平台",
+    "attribute": "架构",
+    "raw_value": "以本体（Ontology）为核心的数据架构",
+    "raw_context": "作为 TITAN 体系的集成环境，Palantir Foundry 平台部署了以本体（Ontology）为核心的数据架构。",
+    "section_title": "2.2.4.1 4.1.1 架构总述"
+  },
+  {
+    "raw_subject": "Foundry 架构",
+    "attribute": "层级",
+    "raw_value": "语义层（Semantic）、动力层（Kinetic）与动态层（Dynamic）",
+    "raw_context": "Foundry 架构由三个逻辑层级构成： **语义层（Semantic）** 、 **动力层（Kinetic）** 与 **动态层（Dynamic）** 。",
+    "section_title": "2.2.4.1 4.1.1 架构总述"
+  },
+  {
+    "raw_subject": "系统",
+    "attribute": "引擎",
+    "raw_value": "因果推断（Causal Inference）引擎",
+    "raw_context": "Foundry 平台集成了先进的因果推断（Causal Inference）引擎。",
+    "section_title": "2.2.4.2 4.1.2 语义层：数据对象化"
+  },
+  {
+    "raw_subject": "系统",
+    "attribute": "技术",
+    "raw_value": "反事实推理（Counterfactual Reasoning）技术",
+    "raw_context": "系统利用反事实推理（Counterfactual Reasoning）技术来动态验证目标的真实性。",
+    "section_title": "2.2.4.2 4.1.2 语义层：数据对象化"
+  },
+  {
+    "raw_subject": "系统",
+    "attribute": "机制",
+    "raw_value": "基于深层逻辑的验证机制",
+    "raw_context": "这种基于深层逻辑的验证机制，有效防止了指挥系统被虚假信号误导，避免了高价值打击资源在无效目标上的损耗。",
+    "section_title": "2.2.4.2 4.1.2 语义层：数据对象化"
+  },
+  {
+    "raw_subject": "系统",
+    "attribute": "机制",
+    "raw_value": "软件定义的资产管理机制",
+    "raw_context": "这种软件定义的资产管理机制建立了数字指令与物理动作的映射关系，使得指挥系统能够通过标准化接口调度前线硬件，确保战术决策精确匹配物理层的执行条件与资源状态。",
+    "section_title": "2.2.4.3 4.1.3 动力层：资产能力映射"
+  },
+  {
+    "raw_subject": "系统",
+    "attribute": "循环",
+    "raw_value": "OODA 循环",
+    "raw_context": "该机制将静态的态势展示转化为动态的响应链条，在无需人工干预的情况下实现从威胁识别到战术反制的自动化执行。",
+    "section_title": "2.2.4.4 4.1.4 动态层：闭环流程编排"
+  },
+  {
+    "raw_subject": "系统",
+    "attribute": "机制",
+    "raw_value": "基于本体的跨域关联",
+    "raw_context": "在通过因果推断验证情报逻辑真实性后，系统执行基于本体的跨域关联以构建精确的实体画像。",
+    "section_title": "2.2.6 4.2.2 跨域实体关联"
+  },
+  {
+    "raw_subject": "系统",
+    "attribute": "算法",
+    "raw_value": "多模态对齐算法",
+    "raw_context": "Foundry 平台利用多模态对齐算法，将 L3Harris 网关截获的电磁特征数据与来自太空层的合成孔径雷达（SAR）图像及空中无人机的全动视频（FMV）流进行对象级绑定。",
+    "section_title": "2.2.6 4.2.2 跨域实体关联"
+  },
+  {
+    "raw_subject": "系统",
+    "attribute": "机制",
+    "raw_value": "全息态势呈现",
+    "raw_context": "所有经过验证与关联的情报最终汇聚于 TITAN 地面站的“单一玻璃面板”界面，形成动态更新的通用作战图（COP）。",
+    "section_title": "2.2.7 4.2.3 全息态势呈现"
+  },
+  {
+    "raw_subject": "系统",
+    "attribute": "功能",
+    "raw_value": "战术辅助分析功能",
+    "raw_context": "系统能够根据敌方雷达的信号参数（如旁瓣特征、扫描周期）实时渲染其探测范围与危险区域。",
+    "section_title": "2.2.7 4.2.3 全息态势呈现"
+  },
+  {
+    "raw_subject": "系统",
+    "attribute": "功能",
+    "raw_value": "可视化呈现",
+    "raw_context": "这种可视化呈现将抽象的电磁参数转化为直观的空间导航辅助，帮助指挥官规划部队机动路径，利用地形遮挡有效规避敌方电子侦察。",
+    "section_title": "2.2.7 4.2.3 全息态势呈现"
+  },
+  {
+    "raw_subject": "系统",
+    "attribute": "设备",
+    "raw_value": "L3Harris AN/PRC-163 战术网关",
+    "raw_context": "系统作为中间件连接底层传感网络与上层决策逻辑，实时摄取 L3Harris AN/PRC-163 战术网关的频谱数据，并与多域情报源进行时空对齐。",
+    "section_title": "2.2.4.1 4.1.1 架构总述"
+  },
+  {
+    "raw_subject": "系统",
+    "attribute": "设备",
+    "raw_value": "干扰吊舱",
+    "raw_context": "系统将 AN/PRC-163 电台、干扰吊舱等硬件设备抽象为可调用的软件服务节点，对其物理能力进行参数化建模。",
+    "section_title": "2.2.4.3 4.1.3 动力层：资产能力映射"
+  },
+  {
+    "raw_subject": "系统",
+    "attribute": "设备",
+    "raw_value": "L3Harris 网关",
+    "raw_context": "Foundry 平台利用多模态对齐算法，将 L3Harris 网关截获的电磁特征数据与来自太空层的合成孔径雷达（SAR）图像及空中无人机的全动视频（FMV）流进行对象级绑定。",
+    "section_title": "2.2.6 4.2.2 跨域实体关联"
+  }
+]
+```

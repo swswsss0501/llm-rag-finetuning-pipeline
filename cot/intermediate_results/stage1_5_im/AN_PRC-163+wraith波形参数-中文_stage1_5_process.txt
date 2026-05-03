@@ -1,0 +1,628 @@
+=== Stage 1.5 Process Log for AN_PRC-163+wraith波形参数-中文_detail_stage1.json ===
+Model: Qwen2.5-32B @ http://localhost:8000/v1
+Total Items: 11
+============================================================
+
+--- Item #1 ---
+[ORIGINAL DATA]:
+  Subject:   Wraith 系统
+  Attribute: 未来发展方向
+
+[INPUT CONTEXT BLOCK]:
+--------------------
+## wraith ™
+
+
+
+弹性宽带波形
+
+
+
+Wraith 系统自设计之初就具备抗干扰能力，特别适合在敌方干扰区域附近执行机 动战术前沿作战任务。
+
+
+
+Wraith 通过自愈网络和雪崩式网络架构，确 保语音、数据及 PLI （物理层接口）的稳健 性。其波形技术可在多种平台上实现弹性 范围扩展，单个网络可支持 140 个节点，同 时处理多数据流并达到最高 16 个对话组。
+
+
+
+Wraith 采用标准套件运行，配备直观 的前面板和熟悉的 Falcon IV 界面。
+
+
+
+Wraith 系统可与 Falcon IV® 系列无线电设 备实现互操作，是现有无线电设备的低成 本软件升级方案。
+
+
+
+Wraith 为当今的作战行动提供了先进的连 接性，并为未来的战场挑战而设计。这包 括增加 LPX 能力，增加节点数量和持续 开发运营技术。
+
+
+
+<!-- image -->
+
+
+
+<!-- image -->
+
+
+
+战术边缘解决方案
+--------------------
+
+[INPUT TARGET JSON]:
+{
+  "raw_subject": "Wraith 系统",
+  "attribute": "未来发展方向",
+  "raw_value": "包括增加 LPX 能力，增加节点数量和持续开发运营技术",
+  "raw_context": "Wraith 为当今的作战行动提供了先进的连接性，并为未来的战场挑战而设计。这包括增加 LPX 能力，增加节点数量和持续开发运营技术。"
+}
+
+[LLM RAW RESPONSE]:
+{
+    "raw_subject": "Wraith 系统",
+    "attribute": "未来发展方向"
+}
+
+[DECISION]: KEPT_ORIGINAL
+  Reason: LLM output matched original or parse failed.
+
+========================================
+
+--- Item #2 ---
+[ORIGINAL DATA]:
+  Subject:   Wraith 系统
+  Attribute: 对话组支持
+
+[INPUT CONTEXT BLOCK]:
+--------------------
+## 主要优势
+
+
+
+- 及 PLI 传输稳定可靠 &gt; 高度可靠且可导出 的 manet &gt; 高通量抗干扰解决方案，确保语音、数据
+
+- &gt; Falcon® IV 互操作性 AES 加 密
+
+- &gt; Type 3
+
+- &gt; 能同时支持两个活跃的对话组
+
+- 支 持 AN/PRC-163 、 AN/PRC-167 及 RF-9820S 型号
+--------------------
+
+[INPUT TARGET JSON]:
+{
+  "raw_subject": "Wraith 系统",
+  "attribute": "对话组支持",
+  "raw_value": "能同时支持两个活跃的对话组",
+  "raw_context": "- 支持 AN/PRC-163 、 AN/PRC-167 及 RF-9820S 型号"
+}
+
+[LLM RAW RESPONSE]:
+{
+  "raw_subject": "Wraith 系统",
+  "attribute": "对话组支持"
+}
+
+[DECISION]: KEPT_ORIGINAL
+  Reason: LLM output matched original or parse failed.
+
+========================================
+
+--- Item #3 ---
+[ORIGINAL DATA]:
+  Subject:   Wraith 系统
+  Attribute: 用户界面
+
+[INPUT CONTEXT BLOCK]:
+--------------------
+## wraith ™
+
+
+
+弹性宽带波形
+
+
+
+Wraith 系统自设计之初就具备抗干扰能力，特别适合在敌方干扰区域附近执行机 动战术前沿作战任务。
+
+
+
+Wraith 通过自愈网络和雪崩式网络架构，确 保语音、数据及 PLI （物理层接口）的稳健 性。其波形技术可在多种平台上实现弹性 范围扩展，单个网络可支持 140 个节点，同 时处理多数据流并达到最高 16 个对话组。
+
+
+
+Wraith 采用标准套件运行，配备直观 的前面板和熟悉的 Falcon IV 界面。
+
+
+
+Wraith 系统可与 Falcon IV® 系列无线电设 备实现互操作，是现有无线电设备的低成 本软件升级方案。
+
+
+
+Wraith 为当今的作战行动提供了先进的连 接性，并为未来的战场挑战而设计。这包 括增加 LPX 能力，增加节点数量和持续 开发运营技术。
+
+
+
+<!-- image -->
+
+
+
+<!-- image -->
+
+
+
+战术边缘解决方案
+--------------------
+
+[INPUT TARGET JSON]:
+{
+  "raw_subject": "Wraith 系统",
+  "attribute": "用户界面",
+  "raw_value": "配备直观的前面板和熟悉的 Falcon IV 界面",
+  "raw_context": "Wraith 采用标准套件运行，配备直观 的前面板和熟悉的 Falcon IV 界面。"
+}
+
+[LLM RAW RESPONSE]:
+{
+    "raw_subject": "Wraith 系统",
+    "attribute": "用户界面设计"
+}
+
+[DECISION]: MODIFIED
+  Subject Change:   'Wraith 系统' -> 'Wraith 系统'
+  Attribute Change: '用户界面' -> '用户界面设计'
+
+========================================
+
+--- Item #4 ---
+[ORIGINAL DATA]:
+  Subject:   Wraith 系统
+  Attribute: 主要优势
+
+[INPUT CONTEXT BLOCK]:
+--------------------
+## 主要优势
+
+
+
+- 及 PLI 传输稳定可靠 &gt; 高度可靠且可导出 的 manet &gt; 高通量抗干扰解决方案，确保语音、数据
+
+- &gt; Falcon® IV 互操作性 AES 加 密
+
+- &gt; Type 3
+
+- &gt; 能同时支持两个活跃的对话组
+
+- 支 持 AN/PRC-163 、 AN/PRC-167 及 RF-9820S 型号
+--------------------
+
+[INPUT TARGET JSON]:
+{
+  "raw_subject": "Wraith 系统",
+  "attribute": "主要优势",
+  "raw_value": "高度可靠且可导出的 manet",
+  "raw_context": "- &gt; 高度可靠且可导出 的 manet &gt; 高通量抗干扰解决方案，确保语音、数据"
+}
+
+[LLM RAW RESPONSE]:
+{
+  "raw_subject": "Wraith 系统",
+  "attribute": "MANET 传输稳定性"
+}
+
+[DECISION]: MODIFIED
+  Subject Change:   'Wraith 系统' -> 'Wraith 系统'
+  Attribute Change: '主要优势' -> 'MANET 传输稳定性'
+
+========================================
+
+--- Item #5 ---
+[ORIGINAL DATA]:
+  Subject:   Wraith 系统
+  Attribute: 互操作性
+
+[INPUT CONTEXT BLOCK]:
+--------------------
+## wraith ™
+
+
+
+弹性宽带波形
+
+
+
+Wraith 系统自设计之初就具备抗干扰能力，特别适合在敌方干扰区域附近执行机 动战术前沿作战任务。
+
+
+
+Wraith 通过自愈网络和雪崩式网络架构，确 保语音、数据及 PLI （物理层接口）的稳健 性。其波形技术可在多种平台上实现弹性 范围扩展，单个网络可支持 140 个节点，同 时处理多数据流并达到最高 16 个对话组。
+
+
+
+Wraith 采用标准套件运行，配备直观 的前面板和熟悉的 Falcon IV 界面。
+
+
+
+Wraith 系统可与 Falcon IV® 系列无线电设 备实现互操作，是现有无线电设备的低成 本软件升级方案。
+
+
+
+Wraith 为当今的作战行动提供了先进的连 接性，并为未来的战场挑战而设计。这包 括增加 LPX 能力，增加节点数量和持续 开发运营技术。
+
+
+
+<!-- image -->
+
+
+
+<!-- image -->
+
+
+
+战术边缘解决方案
+--------------------
+
+[INPUT TARGET JSON]:
+{
+  "raw_subject": "Wraith 系统",
+  "attribute": "互操作性",
+  "raw_value": "与 Falcon IV® 系列无线电设备实现互操作",
+  "raw_context": "Wraith 系统可与 Falcon IV® 系列无线电设备实现互操作，是现有无线电设备的低成本软件升级方案。"
+}
+
+[LLM RAW RESPONSE]:
+{
+    "raw_subject": "Wraith 系统",
+    "attribute": "互操作性"
+}
+
+[DECISION]: KEPT_ORIGINAL
+  Reason: LLM output matched original or parse failed.
+
+========================================
+
+--- Item #6 ---
+[ORIGINAL DATA]:
+  Subject:   Wraith 系统
+  Attribute: 网络架构
+
+[INPUT CONTEXT BLOCK]:
+--------------------
+## wraith ™
+
+
+
+弹性宽带波形
+
+
+
+Wraith 系统自设计之初就具备抗干扰能力，特别适合在敌方干扰区域附近执行机 动战术前沿作战任务。
+
+
+
+Wraith 通过自愈网络和雪崩式网络架构，确 保语音、数据及 PLI （物理层接口）的稳健 性。其波形技术可在多种平台上实现弹性 范围扩展，单个网络可支持 140 个节点，同 时处理多数据流并达到最高 16 个对话组。
+
+
+
+Wraith 采用标准套件运行，配备直观 的前面板和熟悉的 Falcon IV 界面。
+
+
+
+Wraith 系统可与 Falcon IV® 系列无线电设 备实现互操作，是现有无线电设备的低成 本软件升级方案。
+
+
+
+Wraith 为当今的作战行动提供了先进的连 接性，并为未来的战场挑战而设计。这包 括增加 LPX 能力，增加节点数量和持续 开发运营技术。
+
+
+
+<!-- image -->
+
+
+
+<!-- image -->
+
+
+
+战术边缘解决方案
+--------------------
+
+[INPUT TARGET JSON]:
+{
+  "raw_subject": "Wraith 系统",
+  "attribute": "网络架构",
+  "raw_value": "自愈网络和雪崩式网络架构",
+  "raw_context": "Wraith 通过自愈网络和雪崩式网络架构，确保语音、数据及 PLI （物理层接口）的稳健 性。"
+}
+
+[LLM RAW RESPONSE]:
+{
+    "raw_subject": "Wraith 系统",
+    "attribute": "网络架构"
+}
+
+[DECISION]: KEPT_ORIGINAL
+  Reason: LLM output matched original or parse failed.
+
+========================================
+
+--- Item #7 ---
+[ORIGINAL DATA]:
+  Subject:   Wraith 系统
+  Attribute: 兼容型号
+
+[INPUT CONTEXT BLOCK]:
+--------------------
+## 主要优势
+
+
+
+- 及 PLI 传输稳定可靠 &gt; 高度可靠且可导出 的 manet &gt; 高通量抗干扰解决方案，确保语音、数据
+
+- &gt; Falcon® IV 互操作性 AES 加 密
+
+- &gt; Type 3
+
+- &gt; 能同时支持两个活跃的对话组
+
+- 支 持 AN/PRC-163 、 AN/PRC-167 及 RF-9820S 型号
+--------------------
+
+[INPUT TARGET JSON]:
+{
+  "raw_subject": "Wraith 系统",
+  "attribute": "兼容型号",
+  "raw_value": "AN/PRC-163 、 AN/PRC-167 及 RF-9820S",
+  "raw_context": "- 支持 AN/PRC-163 、 AN/PRC-167 及 RF-9820S 型号"
+}
+
+[LLM RAW RESPONSE]:
+{
+  "raw_subject": "Wraith 系统",
+  "attribute": "兼容型号"
+}
+
+[DECISION]: KEPT_ORIGINAL
+  Reason: LLM output matched original or parse failed.
+
+========================================
+
+--- Item #8 ---
+[ORIGINAL DATA]:
+  Subject:   Wraith 系统
+  Attribute: 对话组支持
+
+[INPUT CONTEXT BLOCK]:
+--------------------
+## wraith ™
+
+
+
+弹性宽带波形
+
+
+
+Wraith 系统自设计之初就具备抗干扰能力，特别适合在敌方干扰区域附近执行机 动战术前沿作战任务。
+
+
+
+Wraith 通过自愈网络和雪崩式网络架构，确 保语音、数据及 PLI （物理层接口）的稳健 性。其波形技术可在多种平台上实现弹性 范围扩展，单个网络可支持 140 个节点，同 时处理多数据流并达到最高 16 个对话组。
+
+
+
+Wraith 采用标准套件运行，配备直观 的前面板和熟悉的 Falcon IV 界面。
+
+
+
+Wraith 系统可与 Falcon IV® 系列无线电设 备实现互操作，是现有无线电设备的低成 本软件升级方案。
+
+
+
+Wraith 为当今的作战行动提供了先进的连 接性，并为未来的战场挑战而设计。这包 括增加 LPX 能力，增加节点数量和持续 开发运营技术。
+
+
+
+<!-- image -->
+
+
+
+<!-- image -->
+
+
+
+战术边缘解决方案
+--------------------
+
+[INPUT TARGET JSON]:
+{
+  "raw_subject": "Wraith 系统",
+  "attribute": "对话组支持",
+  "raw_value": "最高 16 个对话组",
+  "raw_context": "其波形技术可在多种平台上实现弹性范围扩展，单个网络可支持 140 个节点，同时处理多数据流并达到最高 16 个对话组。"
+}
+
+[LLM RAW RESPONSE]:
+{
+    "raw_subject": "Wraith 系统",
+    "attribute": "最大对话组数量"
+}
+
+[DECISION]: MODIFIED
+  Subject Change:   'Wraith 系统' -> 'Wraith 系统'
+  Attribute Change: '对话组支持' -> '最大对话组数量'
+
+========================================
+
+--- Item #9 ---
+[ORIGINAL DATA]:
+  Subject:   Wraith 系统
+  Attribute: 支持节点数
+
+[INPUT CONTEXT BLOCK]:
+--------------------
+## wraith ™
+
+
+
+弹性宽带波形
+
+
+
+Wraith 系统自设计之初就具备抗干扰能力，特别适合在敌方干扰区域附近执行机 动战术前沿作战任务。
+
+
+
+Wraith 通过自愈网络和雪崩式网络架构，确 保语音、数据及 PLI （物理层接口）的稳健 性。其波形技术可在多种平台上实现弹性 范围扩展，单个网络可支持 140 个节点，同 时处理多数据流并达到最高 16 个对话组。
+
+
+
+Wraith 采用标准套件运行，配备直观 的前面板和熟悉的 Falcon IV 界面。
+
+
+
+Wraith 系统可与 Falcon IV® 系列无线电设 备实现互操作，是现有无线电设备的低成 本软件升级方案。
+
+
+
+Wraith 为当今的作战行动提供了先进的连 接性，并为未来的战场挑战而设计。这包 括增加 LPX 能力，增加节点数量和持续 开发运营技术。
+
+
+
+<!-- image -->
+
+
+
+<!-- image -->
+
+
+
+战术边缘解决方案
+--------------------
+
+[INPUT TARGET JSON]:
+{
+  "raw_subject": "Wraith 系统",
+  "attribute": "支持节点数",
+  "raw_value": "140 个节点",
+  "raw_context": "其波形技术可在多种平台上实现弹性范围扩展，单个网络可支持 140 个节点，同时处理多数据流并达到最高 16 个对话组。"
+}
+
+[LLM RAW RESPONSE]:
+{
+    "raw_subject": "Wraith 系统",
+    "attribute": "支持节点数"
+}
+
+[DECISION]: KEPT_ORIGINAL
+  Reason: LLM output matched original or parse failed.
+
+========================================
+
+--- Item #10 ---
+[ORIGINAL DATA]:
+  Subject:   Wraith 系统
+  Attribute: 设计理念
+
+[INPUT CONTEXT BLOCK]:
+--------------------
+## wraith ™
+
+
+
+弹性宽带波形
+
+
+
+Wraith 系统自设计之初就具备抗干扰能力，特别适合在敌方干扰区域附近执行机 动战术前沿作战任务。
+
+
+
+Wraith 通过自愈网络和雪崩式网络架构，确 保语音、数据及 PLI （物理层接口）的稳健 性。其波形技术可在多种平台上实现弹性 范围扩展，单个网络可支持 140 个节点，同 时处理多数据流并达到最高 16 个对话组。
+
+
+
+Wraith 采用标准套件运行，配备直观 的前面板和熟悉的 Falcon IV 界面。
+
+
+
+Wraith 系统可与 Falcon IV® 系列无线电设 备实现互操作，是现有无线电设备的低成 本软件升级方案。
+
+
+
+Wraith 为当今的作战行动提供了先进的连 接性，并为未来的战场挑战而设计。这包 括增加 LPX 能力，增加节点数量和持续 开发运营技术。
+
+
+
+<!-- image -->
+
+
+
+<!-- image -->
+
+
+
+战术边缘解决方案
+--------------------
+
+[INPUT TARGET JSON]:
+{
+  "raw_subject": "Wraith 系统",
+  "attribute": "设计理念",
+  "raw_value": "自设计之初就具备抗干扰能力，特别适合在敌方干扰区域附近执行机动战术前沿作战任务。",
+  "raw_context": "Wraith 系统自设计之初就具备抗干扰能力，特别适合在敌方干扰区域附近执行机 动战术前沿作战任务。"
+}
+
+[LLM RAW RESPONSE]:
+{
+    "raw_subject": "Wraith 系统",
+    "attribute": "抗干扰设计理念"
+}
+
+[DECISION]: MODIFIED
+  Subject Change:   'Wraith 系统' -> 'Wraith 系统'
+  Attribute Change: '设计理念' -> '抗干扰设计理念'
+
+========================================
+
+--- Item #11 ---
+[ORIGINAL DATA]:
+  Subject:   Wraith 系统
+  Attribute: 加密等级
+
+[INPUT CONTEXT BLOCK]:
+--------------------
+## 主要优势
+
+
+
+- 及 PLI 传输稳定可靠 &gt; 高度可靠且可导出 的 manet &gt; 高通量抗干扰解决方案，确保语音、数据
+
+- &gt; Falcon® IV 互操作性 AES 加 密
+
+- &gt; Type 3
+
+- &gt; 能同时支持两个活跃的对话组
+
+- 支 持 AN/PRC-163 、 AN/PRC-167 及 RF-9820S 型号
+--------------------
+
+[INPUT TARGET JSON]:
+{
+  "raw_subject": "Wraith 系统",
+  "attribute": "加密等级",
+  "raw_value": "Type 3",
+  "raw_context": "- &gt; Type 3"
+}
+
+[LLM RAW RESPONSE]:
+{
+  "raw_subject": "Wraith 系统",
+  "attribute": "加密等级"
+}
+
+[DECISION]: KEPT_ORIGINAL
+  Reason: LLM output matched original or parse failed.
+
+========================================
+

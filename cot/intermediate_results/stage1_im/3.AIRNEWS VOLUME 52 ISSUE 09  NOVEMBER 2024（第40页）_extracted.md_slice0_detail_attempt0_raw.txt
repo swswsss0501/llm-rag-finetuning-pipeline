@@ -1,0 +1,67 @@
+```json
+[
+  {
+    "raw_subject": "L3Harris",
+    "attribute": "demonstration",
+    "raw_value": "integration of its WESCAM MX™-Series electro-optical/infrared (EO/IR) imaging systems with Palantir Technologies Inc. Sensor Inference Platform (SIP)",
+    "raw_context": "L3Harris successfully demonstrated integration of its WESCAM MX™-Series electro-optical/infrared (EO/IR) imaging systems with Palantir Technologies Inc. Sensor Inference Platform (SIP), which provides artificial intelligence and machine learning (AI/ML) capabilities on edge computing platforms.",
+    "section_title": "NEW AI/ML CAPABILITIES"
+  },
+  {
+    "raw_subject": "Palantir Technologies Inc. Sensor Inference Platform (SIP)",
+    "attribute": "capabilities",
+    "raw_value": "provides artificial intelligence and machine learning (AI/ML) capabilities on edge computing platforms",
+    "raw_context": "L3Harris successfully demonstrated integration of its WESCAM MX™-Series electro-optical/infrared (EO/IR) imaging systems with Palantir Technologies Inc. Sensor Inference Platform (SIP), which provides artificial intelligence and machine learning (AI/ML) capabilities on edge computing platforms.",
+    "section_title": "NEW AI/ML CAPABILITIES"
+  },
+  {
+    "raw_subject": "SIP",
+    "attribute": "functionality",
+    "raw_value": "provided an orchestration container for multiple AI/ML models for advanced target detection and delineation",
+    "raw_context": "SIP successfully provided an orchestration container for multiple AI/ML models for advanced target detection and delineation.",
+    "section_title": "NEW AI/ML CAPABILITIES"
+  },
+  {
+    "raw_subject": "L3Harris' WESCAM MX™-20 EO/IR system",
+    "attribute": "installation",
+    "raw_value": "coupled with Palantir software",
+    "raw_context": "L3Harris and Palantir engineers outfitted a fixed wing aircraft with L3Harris' state-of-the-art WESCAM MX™-20 EO/IR system coupled with Palantir software.",
+    "section_title": "NEW AI/ML CAPABILITIES"
+  },
+  {
+    "raw_subject": "Palantir's SIP",
+    "attribute": "functionality",
+    "raw_value": "provided advanced object detection, tracking and object classification capability",
+    "raw_context": "Palantir's SIP provided advanced object detection, tracking and object classification capability.",
+    "section_title": "NEW AI/ML CAPABILITIES"
+  },
+  {
+    "raw_subject": "combination of L3Harris' high-performance imaging systems with Palantir's AI-enabled automation",
+    "attribute": "benefit",
+    "raw_value": "provides operators, aboard all platforms, with a significant advantage in agile decision-making, over traditional optical solutions",
+    "raw_context": "Combining L3Harris' high-performance imaging systems with Palantir's AI-enabled automation provides operators, aboard all platforms, with a significant advantage in agile decision-making, over traditional optical solutions.",
+    "section_title": "NEW AI/ML CAPABILITIES"
+  },
+  {
+    "raw_subject": "future-ready sensor optimization",
+    "attribute": "implementation",
+    "raw_value": "through a specialized user interface reduces workload, alerting operators of threats that require immediate action",
+    "raw_context": "This future-ready sensor optimization through a specialized user interface reduces workload, alerting operators of threats that require immediate action.",
+    "section_title": "NEW AI/ML CAPABILITIES"
+  },
+  {
+    "raw_subject": "L3Harris' WESCAM MX-20 EO/IR imaging system",
+    "attribute": "part of",
+    "raw_value": "a comprehensive airborne, ground and maritime portfolio of multi-sensor, multi-spectral systems deployed worldwide",
+    "raw_context": "L3Harris' WESCAM MX-20 EO/IR imaging system is part of a comprehensive airborne, ground and maritime portfolio of multi-sensor, multi-spectral systems deployed worldwide, at varying ranges, and with overlapping fields-of-view, creating the opportunity for uninterrupted collection of intelligence through optical surveillance and targeting of threats on the battlefield.",
+    "section_title": "NEW AI/ML CAPABILITIES"
+  },
+  {
+    "raw_subject": "L3Harris' WESCAM MX-Series of systems",
+    "attribute": "deployment",
+    "raw_value": "on over 270 different types of platforms across all domains",
+    "raw_context": "L3Harris' WESCAM MX-Series of systems are on over 270 different types of platforms across all domains.",
+    "section_title": "NEW AI/ML CAPABILITIES"
+  }
+]
+```
